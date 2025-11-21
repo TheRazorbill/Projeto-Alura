@@ -1,6 +1,12 @@
-#  English for Devs - Dicionário Tech
 
-<img width="1897" height="1095" alt="image" src="https://github.com/user-attachments/assets/df3d6026-d087-4d02-96e4-071be24c38b2" />
+
+<div align="center">
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/3058b82d-ef2a-4d24-bff4-4912d9c5cd19" />
+  <div align="center">
+  <h1>English for Devs - Dicionário Tech</h1>
+      
+</div>
+</div>
 
 > **"Não decore comandos. Entenda o significado literal por trás do código."**
 
@@ -8,9 +14,14 @@ O **English for Devs** é uma base de conhecimento interativa focada em descompl
 
  **Projeto desenvolvido durante a Imersão Dev com Google Gemini e Alura.**
 
+<img width="1897" height="1095" alt="image" src="https://github.com/user-attachments/assets/df3d6026-d087-4d02-96e4-071be24c38b2" />
+
 ---
 
-## O que ele resolve?
+<div align="center">
+  <h2>O que ele resolve?</h2>
+    
+</div>
 
 Muitos iniciantes travam na programação porque os termos parecem abstratos. Nesta aplicação, você busca um termo e descobre:
 1. **Tradução Literal:** A origem da palavra no inglês cotidiano.
@@ -20,7 +31,10 @@ Muitos iniciantes travam na programação porque os termos parecem abstratos. Ne
 
 ---
 
-## Funcionalidades & Diferenciais
+<div align="center">
+  <h2>Funcionalidades & Diferenciais</h2>
+    
+</div>
 
 * **Busca Inteligente:** Filtragem em tempo real por termo, tradução ou explicação.
 * **UI/UX Imersiva:** Design moderno com efeito *glassmorphism*, animações de partículas em Canvas e transições suaves.
@@ -31,7 +45,9 @@ Muitos iniciantes travam na programação porque os termos parecem abstratos. Ne
 
 ---
 
-##  Tecnologias Utilizadas
+<div align="center">
+  <h2>Tecnologias Utilizadas</h2>
+</div>  
 
 Este projeto foi construído focando nos fundamentos da web moderna, sem uso de frameworks JS (como React ou Vue), garantindo performance e leveza.
 
@@ -42,7 +58,9 @@ Este projeto foi construído focando nos fundamentos da web moderna, sem uso de 
 
 ---
 
-##  Como Rodar Localmente
+<div align="center">
+  <h2>Como Rodar Localmente</h2>
+</div>  
 
 O projeto é estático e não requer instalação de dependências para rodar no navegador.
 
@@ -57,21 +75,26 @@ O projeto é estático e não requer instalação de dependências para rodar no
 
 ---
 
-##  Link do Projeto
+<div align="center">
+  <h2>Link do Projeto</h2>
+</div> 
 
 Acesse a aplicação online:
  **[English for Devs - Live Demo](https://therazorbill.github.io/Projeto-Alura/)**
 
-![Preview do Projeto](assets/gif.gif)
+<div align="center">
+<img width="250" height="250" alt="image" src="assets/gif.gif" />
+</div>
+
 
 ---
 
-##  Créditos
+<div align="center">
+  <h2>Créditos</h2>
+</div> 
 
 Desenvolvido por **RazorBill** como projeto final da **Imersão Dev Alura + Google**.
 
 * Design Concept: Inspirado no React Bits e Material Design.
 * Dados: Gerados com Google Gemini 2.5.
 * Apoio Educacional: Alura.
-
----
