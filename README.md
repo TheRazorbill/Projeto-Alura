@@ -1,68 +1,77 @@
-# English for Devs - Dicionário Tech
+#  English for Devs - Dicionário Tech
+
+<img width="1897" height="1095" alt="image" src="https://github.com/user-attachments/assets/df3d6026-d087-4d02-96e4-071be24c38b2" />
+
+> **"Não decore comandos. Entenda o significado literal por trás do código."**
+
+O **English for Devs** é uma base de conhecimento interativa focada em descomplicar o "tech-speak". Conectamos o significado literal de termos técnicos em inglês (ex: *Fetch* = "Ir buscar") à sua função real no código, tornando o aprendizado de programação mais intuitivo para brasileiros.
+
+ **Projeto desenvolvido durante a Imersão Dev com Google Gemini e Alura.**
 
 ---
 
-![alt text](assets/gif.gif)
+## O que ele resolve?
 
----
-**Entenda o que você escreve, não apenas decore.**
-
-Este projeto é uma base de conhecimento focada em descomplicar o "tech-speak". Conectamos o significado literal de termos técnicos em inglês à sua função real no código, tornando o aprendizado de programação mais intuitivo para brasileiros.
-
-Desenvolvido durante a **Imersão Dev com Google e Alura**.
-
----
-
-## O que é?
-
-O **English for Devs** é uma aplicação web onde você busca um termo (ex: "Merge") e descobre:
-1.  A tradução literal (ex: "Fundir").
-2.  Uma explicação técnica simples.
-3.  A categoria (Verbo, Conceito, etc.).
-4.  Link para a documentação oficial.
-
-Ideal para quem trava no inglês e quer entender a lógica por trás dos comandos.
+Muitos iniciantes travam na programação porque os termos parecem abstratos. Nesta aplicação, você busca um termo e descobre:
+1. **Tradução Literal:** A origem da palavra no inglês cotidiano.
+2. **Explicação Técnica:** O que ela faz no código, sem "tiopês".
+3. **Contextualização:** Categoria gramatical e técnica.
+4. **Aprofundamento:** Link direto para documentações oficiais (MDN, Git-scm, etc.).
 
 ---
 
-## Funcionalidades Principais
+## Funcionalidades & Diferenciais
 
--   **Busca Rápida:** Pesquise por termos em inglês ou suas traduções literais.
--   **Visual Tech:** Design moderno com efeito glassmorphism e fundo dinâmico.
--   **Filtro por Categorias:** Explore termos por tipo (ex: Verbos, Infra, Front-end).
--   **Temas:** Alternância entre modo claro e escuro.
--   **Conteúdo Extra:** Seção com artigos recentes do Dev.to.
--   **Dados Gerados por IA:** Termos e explicações criados com auxílio do Google Gemini.
-
----
-
-## Tecnologias
-
-Projeto construído com a base da web moderna:
-
--   **HTML5 & CSS3:** Para estrutura e um design responsivo, usando CSS Grid e Variáveis.
--   **JavaScript (Vanilla):** Para toda a interatividade, busca, manipulação do DOM e canvas.
--   **Node.js & Google Gemini:** Usados para gerar e expandir a base de dados de termos de forma automatizada.
+* **Busca Inteligente:** Filtragem em tempo real por termo, tradução ou explicação.
+* **UI/UX Imersiva:** Design moderno com efeito *glassmorphism*, animações de partículas em Canvas e transições suaves.
+* **Filtros Dinâmicos:** Navegação por categorias (Verbos, Infra, Front-end, etc.).
+* **Dark/Light Mode:** Alternância de tema persistente e adaptável.
+* **Integração com API:** Seção "Artigos" que consome conteúdo real do Dev.to.
+* **Conteúdo via IA:** Base de dados inicial gerada e estruturada com auxílio do **Google Gemini**.
 
 ---
 
-## Como Rodar Localmente
+##  Tecnologias Utilizadas
 
-1.  Clone o repositório: `git clone https://github.com/TheRazorbill/Projeto-Alura`
-2.  Abra a pasta no VS Code.
-3.  Use uma extensão como "Live Server" para abrir o `index.html`.
+Este projeto foi construído focando nos fundamentos da web moderna, sem uso de frameworks JS (como React ou Vue), garantindo performance e leveza.
 
----
-
-## Link do Projeto
-
-Acesse online:  **[https://therazorbill.github.io/Projeto-Alura/]** 
+* **HTML5 Semântico:** Estrutura acessível e organizada.
+* **CSS3 Moderno:** Uso de CSS Variables, Grid, Flexbox e animações keyframe.
+* **JavaScript (Vanilla):** Lógica de busca, manipulação do DOM, consumo de APIs e renderização do Canvas.
+* **Google Gemini + Node.js (Automação):** Script auxiliar (`gerador.js`) criado para expandir a base de dados (`data.json`) de forma automatizada antes do deploy.
 
 ---
 
-## Créditos
+##  Como Rodar Localmente
 
-Feito por **Razorbill** durante a **Imersão Dev Alura + Google**.
-Design e recursos de apoio fornecidos pela Alura.
+O projeto é estático e não requer instalação de dependências para rodar no navegador.
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/TheRazorbill/Projeto-Alura](https://github.com/TheRazorbill/Projeto-Alura)
+    ```
+2.  **Abra a pasta** no VS Code.
+3.  **Execute:** Utilize a extensão "Live Server" para abrir o `index.html` ou abra o arquivo diretamente no navegador.
+
+> *Nota: O arquivo `package.json` e os scripts Node servem apenas para a automação de geração de dados via IA, não sendo necessários para visualizar o site.*
+
+---
+
+##  Link do Projeto
+
+Acesse a aplicação online:
+ **[English for Devs - Live Demo](https://therazorbill.github.io/Projeto-Alura/)**
+
+![Preview do Projeto](assets/gif.gif)
+
+---
+
+##  Créditos
+
+Desenvolvido por **RazorBill** como projeto final da **Imersão Dev Alura + Google**.
+
+* Design Concept: Inspirado no React Bits e Material Design.
+* Dados: Gerados com Google Gemini 2.5.
+* Apoio Educacional: Alura.
 
 ---
