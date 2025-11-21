@@ -48,7 +48,7 @@ Projeto construído com a base da web moderna:
 
 ## Como Rodar Localmente
 
-1.  Clone o repositório: `git clone [SEU_LINK_GITHUB]`
+1.  Clone o repositório: `git clone https://github.com/TheRazorbill/Projeto-Alura`
 2.  Abra a pasta no VS Code.
 3.  Use uma extensão como "Live Server" para abrir o `index.html`.
 
@@ -56,7 +56,7 @@ Projeto construído com a base da web moderna:
 
 ## Link do Projeto
 
-Acesse online:  **[INSERIR SEU LINK DO GITHUB PAGES]** 
+Acesse online:  **[https://therazorbill.github.io/Projeto-Alura/]** 
 
 ---
 
