@@ -56,7 +56,7 @@ Projeto construído com a base da web moderna:
 
 ## Link do Projeto
 
-Acesse online: 👉 **[INSERIR SEU LINK DO GITHUB PAGES]** 👈
+Acesse online:  **[INSERIR SEU LINK DO GITHUB PAGES]** 
 
 ---
 
@@ -66,4 +66,3 @@ Feito por **Razorbill** durante a **Imersão Dev Alura + Google**.
 Design e recursos de apoio fornecidos pela Alura.
 
 ---
-Feito com 💜 e código.
