@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Base de conhecimento Alura">
+    <title>English for Devs | Dicionário Tech</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+
+<body>
+
+    <div class="background-effects">
+        <div class="glow-top"></div>
+        <div class="grid-pattern"></div>
+        <canvas id="star-canvas"></canvas>
+    </div>
+
+    <div class="layout-wrapper">
+
+        <header class="navbar">
+            <div class="navbar-container">
+                <a href="/" class="logo" aria-label="Alura Home">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="logo-icon" aria-hidden="true">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    </svg>
+                    Project Z<span class="badge">Knowledge</span>
+                </a>
+
+                <nav class="nav-center">
+                    <a href="#" class="nav-link active">Início</a>
+                    <a href="#categorias" class="nav-link">Categorias</a>
+                    <a href="#artigos" class="nav-link">Artigos</a>
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                </nav>
+
+                <div class="nav-actions">
+                    <button id="theme-toggle" aria-label="Alternar Tema"
+                        style="background: transparent; border: none; cursor: pointer; font-size: 1.2rem; margin-right: 0.5rem;">
+                        ☀️
+                    </button>
+                    <div class="search-container">
+                        <input type="text" placeholder="Busque 'Merge', 'Bug'..." id="campo-busca">
+                        <button id="botao-busca" onclick="iniciarBusca()" aria-label="Buscar">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" aria-hidden="true">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <a href="https://github.com/TheRazorbill" class="btn-github" target="_blank"
+                        rel="noopener noreferrer">
+                        GitHub
+                    </a>
+                </div>
+
+                <button class="mobile-menu-btn" aria-label="Abrir Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero-text">
+                <canvas id="hero-canvas"></canvas>
+                <div class="pill-new">
+                    <span>Projeto Imersão Dev</span>
+                </div>
+                <h1>
+                    English for <br>
+                    <span class="text-gradient">Developers</span>
+                </h1>
+                <p>Não decore comandos. Entenda o significado literal por trás do código e aprenda mais rápido.</p>
+
+                <div class="hero-cta">
+                    <a href="#bento-grid" class="btn-primary">Explorar Termos</a>
+                    <a href="https://github.com/TheRazorbill" target="_blank" class="btn-secondary">Ver no GitHub</a>
+                </div>
+            </section>
+
+            <section id="categorias" class="categories-section">
+                <h2 class="section-title">Categorias</h2>
+                <div class="categories-container" id="categories-container">
+                    <!-- Categorias injetadas via JS -->
+                </div>
+                <button id="btn-show-more-categories" class="btn-secondary btn-sm" style="margin-top: 1rem;">Saiba
+                    mais</button>
+            </section>
+
+            <section id="bento-grid" class="card-container">
+                <!-- Cards serão inseridos aqui via JavaScript -->
+            </section>
+
+
+            <section id="artigos" class="about-section">
+                <h2 class="section-title">Artigos</h2>
+                <p class="about-desc">Fique por dentro das últimas novidades do mundo dev direto do Dev.to.</p>
+                <div class="articles-grid" id="articles-grid">
+                    <!-- Artigos do Dev.to via JS -->
+                </div>
+            </section>
+
+            <section class="partners-section">
+                <p class="section-label">Termos Populares</p>
+
+                <div class="marquee-container">
+                    <!-- Conteúdo será injetado via JS -->
+                </div>
+            </section>
+            <section id="sobre" class="about-section">
+                <h2 class="section-title">Sobre</h2>
+                <p class="about-desc">Project Z - Dicionário Tech para Desenvolvedores
+
+                    Descrição: Sou novo no mundo do Front-end e, durante a Imersão Dev da Alura com o Google, percebi
+                    uma barreira comum para quem está começando: a "sopa de letrinhas" da tecnologia. Nomes, siglas e
+                    comandos em inglês muitas vezes parecem abstratos, dificultando o aprendizado.
+
+                    O Project Z nasce para resolver isso. Não é apenas um glossário; é um guia que explica a etimologia
+                    e a lógica por trás dos termos. Por que "Array"? Por que "String"? Entender o significado literal e
+                    o motivo da criação da palavra torna a assimilação muito mais rápida.
+
+                    Destaques do Projeto:
+
+                    Integração com IA: Utilizei a API do Google Gemini para gerar as definições, traduções literais e
+                    contextos históricos dos termos.
+
+                    Design: Interface moderna inspirada no "React Bits".
+
+                    Objetivo: Testar minha capacidade de desenvolvimento web e criar uma ferramenta útil para a
+                    comunidade brasileira.</p>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <div class="logo-footer">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                        <span>Project Z</span>
+                    </div>
+                    <p class="footer-desc">
+                        Mergulhe em tecnologia.
+                    </p>
+                    <p class="footer-copy">© 2025 Razorbill. Todos os direitos reservados.</p>
+                </div>
+
+                <div class="footer-links-group">
+                    <div class="footer-column">
+                        <h4>Links</h4>
+                        <a href="https://www.alura.com.br/" target="_blank">Alura</a>
+                        <a href="https://github.com/TheRazorbill" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
