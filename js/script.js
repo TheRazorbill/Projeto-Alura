@@ -3,7 +3,6 @@ let cardContainer = document.querySelector(".card-container");
 let campoBusca = document.querySelector("#campo-busca");
 let dados = [];
 
-// Initialize
 document.addEventListener('DOMContentLoaded', () => {
     carregarDados();
     initTheme();
@@ -28,7 +27,6 @@ function carregarMarquee(dados) {
     const marqueeContainer = document.querySelector(".marquee-container");
     if (!marqueeContainer) return;
 
-    // Ajustado para pegar item.termo
     const contentHTML = dados.map(item => `<span>${item.termo.toUpperCase()}</span>`).join('');
 
     const div1 = document.createElement("div");
@@ -60,12 +58,11 @@ function renderizarCards(dados) {
         let article = document.createElement("article");
         article.classList.add("card");
 
-        // Cores baseadas na categoria gramatical
-        let tagClass = "tag-js"; // Padrão (amarelo)
-        if (dado.categoria === "Verbo") tagClass = "tag-html"; // Laranja
-        if (dado.categoria === "Substantivo") tagClass = "tag-css"; // Azul
-        if (dado.categoria === "Conceito") tagClass = "tag-a11y"; // Verde
-        if (dado.categoria === "Infra") tagClass = "tag-css"; // Azul
+        let tagClass = "tag-js";
+        if (dado.categoria === "Verbo") tagClass = "tag-html";
+        if (dado.categoria === "Substantivo") tagClass = "tag-css";
+        if (dado.categoria === "Conceito") tagClass = "tag-a11y";
+        if (dado.categoria === "Infra") tagClass = "tag-css";
 
         article.innerHTML = `
             <div class="card-content">
@@ -95,7 +92,6 @@ function renderizarCards(dados) {
         container.appendChild(article);
     });
 
-    // Botão Ver Mais
     let showMoreBtn = document.getElementById('btn-show-more-cards');
     if (!showMoreBtn) {
         showMoreBtn = document.createElement('button');
@@ -103,7 +99,7 @@ function renderizarCards(dados) {
         showMoreBtn.className = 'btn-secondary btn-sm';
         showMoreBtn.style.display = 'block';
         showMoreBtn.style.margin = '2rem auto 0';
-        showMoreBtn.textContent = 'Carregar mais termos'; // Texto novo
+        showMoreBtn.textContent = 'Carregar mais termos';
         showMoreBtn.onclick = () => {
             visibleCards += 6;
             renderizarCards(dados);
@@ -135,14 +131,11 @@ async function iniciarBusca() {
 
     const termoBusca = campoBusca.value.toLowerCase();
 
-    // Lógica de busca refinada
     if (termoBusca.length === 1) {
-        // Se for apenas uma letra, busca apenas termos que COMEÇAM com essa letra
         dadosFiltrados = dados.filter(dado =>
             dado.termo.toLowerCase().startsWith(termoBusca)
         );
     } else {
-        // Se for mais de uma letra, busca em tudo (comportamento padrão)
         dadosFiltrados = dados.filter(dado =>
             dado.termo.toLowerCase().includes(termoBusca) ||
             dado.traducaoLiteral.toLowerCase().includes(termoBusca) ||
@@ -160,7 +153,6 @@ async function iniciarBusca() {
 
 let visibleCards = 9;
 
-// --- Categories Logic ---
 const categories = [
     'Verbo', 'Substantivo', 'Conceito', 'Infra',
     'Banco de Dados', 'Front-end', 'Metodologia', 'Back-end',
@@ -185,7 +177,7 @@ function initCategories() {
             const pill = document.createElement('a');
             pill.className = 'category-pill';
             pill.textContent = cat;
-            pill.href = '#'; // Could link to filter
+            pill.href = '#';
             pill.addEventListener('click', (e) => {
                 e.preventDefault();
                 campoBusca.value = cat;
@@ -205,7 +197,6 @@ function initCategories() {
     renderCategories();
 }
 
-// --- Dev.to Articles Logic ---
 async function initArticles() {
     const articlesGrid = document.getElementById('articles-grid');
     if (!articlesGrid) return;
@@ -236,18 +227,14 @@ async function initArticles() {
     }
 }
 
-
-// --- Theme Toggle ---
 function initTheme() {
     const themeToggleBtn = document.getElementById('theme-toggle');
     const htmlElement = document.documentElement;
 
-    // Set default theme to dark if not set
     if (!htmlElement.getAttribute('data-theme')) {
         htmlElement.setAttribute('data-theme', 'dark');
         themeToggleBtn.textContent = '☀️';
     } else {
-        // Update button based on current theme
         const currentTheme = htmlElement.getAttribute('data-theme');
         themeToggleBtn.textContent = currentTheme === 'light' ? '🌙' : '☀️';
     }
@@ -258,14 +245,12 @@ function initTheme() {
         htmlElement.setAttribute('data-theme', newTheme);
         themeToggleBtn.textContent = newTheme === 'light' ? '🌙' : '☀️';
 
-        // Update canvas stroke color based on theme
         if (ctx) {
             ctx.strokeStyle = newTheme === 'light' ? '#000000' : '#ffffff';
         }
     });
 }
 
-// --- Drawing Canvas ---
 let ctx;
 let canvas;
 let isDrawing = false;
@@ -280,7 +265,6 @@ function initCanvas() {
     window.addEventListener('resize', resizeCanvas);
     resizeCanvas();
 
-    // Set initial stroke style
     ctx.strokeStyle = document.documentElement.getAttribute('data-theme') === 'light' ? '#000000' : '#ffffff';
     ctx.lineWidth = 2;
     ctx.lineCap = 'round';
@@ -296,7 +280,6 @@ function initCanvas() {
 }
 
 function resizeCanvas() {
-    // Save current drawing
     const tempCanvas = document.createElement('canvas');
     tempCanvas.width = canvas.width;
     tempCanvas.height = canvas.height;
@@ -308,10 +291,8 @@ function resizeCanvas() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    // Restore drawing
     ctx.drawImage(tempCanvas, 0, 0);
 
-    // Reset styles after resize
     ctx.strokeStyle = document.documentElement.getAttribute('data-theme') === 'light' ? '#000000' : '#ffffff';
     ctx.lineWidth = 2;
     ctx.lineCap = 'round';
@@ -326,7 +307,6 @@ function draw(e) {
     [lastX, lastY] = [e.offsetX, e.offsetY];
 }
 
-// --- Hero Canvas Particle Animation ---
 let heroCanvas, heroCtx;
 let particles = [];
 const particleCount = 50;
@@ -339,7 +319,6 @@ function initHeroCanvas() {
     heroCanvas.width = heroCanvas.offsetWidth;
     heroCanvas.height = heroCanvas.offsetHeight;
 
-    // Create particles
     for (let i = 0; i < particleCount; i++) {
         particles.push({
             x: Math.random() * heroCanvas.width,
@@ -361,23 +340,18 @@ function animateHeroParticles() {
 
     heroCtx.clearRect(0, 0, heroCanvas.width, heroCanvas.height);
 
-    // Update and draw particles
     particles.forEach((particle, i) => {
-        // Move particle
         particle.x += particle.vx;
         particle.y += particle.vy;
 
-        // Bounce off edges
         if (particle.x < 0 || particle.x > heroCanvas.width) particle.vx *= -1;
         if (particle.y < 0 || particle.y > heroCanvas.height) particle.vy *= -1;
 
-        // Draw particle
         heroCtx.beginPath();
         heroCtx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
         heroCtx.fillStyle = isDark ? 'rgba(168, 85, 247, 0.6)' : 'rgba(147, 51, 234, 0.6)';
         heroCtx.fill();
 
-        // Draw connections
         particles.slice(i + 1).forEach(otherParticle => {
             const dx = particle.x - otherParticle.x;
             const dy = particle.y - otherParticle.y;
@@ -400,12 +374,9 @@ function animateHeroParticles() {
     requestAnimationFrame(animateHeroParticles);
 }
 
-// Initialize hero canvas when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
     initHeroCanvas();
 });
-
-// Reinitialize on window resize
 window.addEventListener('resize', () => {
     if (heroCanvas) {
         heroCanvas.width = heroCanvas.offsetWidth;

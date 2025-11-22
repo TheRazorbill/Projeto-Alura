@@ -1,17 +1,12 @@
 import * as fs from 'fs/promises';
 
-// --- CONFIGURAÇÃO DA GEMINI API ---
-// Pega a chave do arquivo .env
 const apiKey = process.env.GEMINI_API_KEY;
 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
-// ATENÇÃO: Alterado para data.json para conectar direto com seu Front-end
 const KNOWLEDGE_FILE = 'data/data.json';
 
-// --- CONFIGURAÇÃO DE GERAÇÃO ---
-const TOTAL_ITEMS = 50;
+const TOTAL_ITEMS = 250;
 
-// Estrutura JSON adaptada para "English for Devs"
 const responseSchema = {
     type: "ARRAY",
     items: {
@@ -34,10 +29,8 @@ const responseSchema = {
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function generateNewKnowledge(existingKnowledge) {
-    // Mudei de item.nome para item.termo para evitar repetições
     const existingNames = existingKnowledge.map(item => item.termo).join(', ');
 
-    // O Prompt do Professor de Inglês
     const systemPrompt = `Você é um professor de inglês técnico especializado em desenvolvimento de software. Sua missão é desmistificar termos técnicos para brasileiros, focando no significado LITERAL da palavra em inglês e como isso ajuda a entender a função técnica. Gere ${TOTAL_ITEMS} novas entradas.`;
 
     const userQuery = `Gere uma lista de ${TOTAL_ITEMS} termos técnicos em inglês (ex: verbos de git, conceitos de API, infraestrutura). Siga estritamente a estrutura JSON. NÃO use estes termos que já existem: ${existingNames}. Tente variar entre verbos (ex: parse, fetch) e substantivos/conceitos (ex: payload, thread, dom).`;
@@ -107,7 +100,6 @@ async function main() {
     try {
         let existingKnowledge = [];
         try {
-            // Agora lê o data.json em vez de baseDeConhecimento.json
             const data = await fs.readFile(KNOWLEDGE_FILE, 'utf-8');
             existingKnowledge = JSON.parse(data);
             console.log(`Base carregada: ${existingKnowledge.length} termos existentes.`);

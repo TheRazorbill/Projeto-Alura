@@ -1,34 +1,24 @@
 /* --- 1. Variáveis & Reset --- */
 :root {
-    /* Cores Principais (Baseadas no React Bits) */
     --bg-dark: #060010;
-    /* Fundo quase preto */
     --bg-card: rgba(255, 255, 255, 0.03);
     --bg-card-hover: rgba(255, 255, 255, 0.06);
 
-    /* Acentos & Glow */
     --primary: #8a2be2;
-    /* Roxo Base */
     --primary-glow: rgba(138, 43, 226, 0.5);
     --accent-pink: #e879f9;
 
-    /* Texto */
     --text-main: #ffffff;
     --text-muted: #94a3b8;
-    /* Slate 400 */
     --text-dim: #52525b;
-    /* Slate 600 */
 
-    /* Bordas */
     --border-light: rgba(255, 255, 255, 0.06);
     --border-hover: rgba(255, 255, 255, 0.15);
 
-    /* Glassmorphism Navbar */
     --nav-bg: rgba(6, 0, 16, 0.6);
     --nav-blur: 16px;
     --nav-border: rgba(255, 255, 255, 0.08);
 
-    /* Tipografia */
     --font-display: 'Bricolage Grotesque', sans-serif;
     --font-body: 'Inter', sans-serif;
 }
@@ -49,7 +39,6 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 90px;
-    /* Offset for fixed navbar (70px) + extra spacing */
 }
 
 * {
@@ -67,28 +56,13 @@ body {
     overflow-x: hidden;
 }
 
-/* --- 2. Background Effects (O "Ambiente") --- */
 .background-effects {
     position: fixed;
     inset: 0;
     z-index: -1;
-    /* pointer-events: none; Removed to allow drawing */
     overflow: hidden;
 }
 
-
-#star-canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    pointer-events: auto;
-    /* Allow drawing */
-}
-
-/* Luz Roxa no topo */
 .glow-top {
     position: absolute;
     top: -150px;
@@ -101,10 +75,8 @@ body {
     filter: blur(60px);
     opacity: 0.8;
     pointer-events: none;
-    /* Pass clicks through */
 }
 
-/* Padrão de Grade Sutil */
 .grid-pattern {
     position: absolute;
     inset: 0;
@@ -129,17 +101,13 @@ body {
     min-height: 100vh;
     position: relative;
     z-index: 1;
-    /* Ensure content is above canvas */
     pointer-events: none;
-    /* Let clicks pass through wrapper */
 }
 
 .layout-wrapper>* {
     pointer-events: auto;
-    /* Re-enable clicks on children */
 }
 
-/* --- 3. Navbar (Glassmorphism) --- */
 .navbar {
     position: sticky;
     top: 0;
@@ -148,8 +116,6 @@ body {
     height: 70px;
     display: flex;
     align-items: center;
-
-    /* O Efeito de Vidro */
     background: var(--nav-bg);
     backdrop-filter: blur(var(--nav-blur));
     -webkit-backdrop-filter: blur(var(--nav-blur));
@@ -219,46 +185,12 @@ body {
     color: var(--text-main);
 }
 
-/* Área da Direita */
 .nav-actions {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-/* Trigger de Busca (Fake Input) */
-.search-trigger {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid var(--border-light);
-    padding: 6px 12px;
-    border-radius: 8px;
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    cursor: pointer;
-    transition: all 0.2s;
-    min-width: 180px;
-}
-
-.search-trigger:hover {
-    background: rgba(255, 255, 255, 0.08);
-    border-color: var(--border-hover);
-    color: var(--text-main);
-}
-
-.search-trigger kbd {
-    margin-left: auto;
-    font-family: monospace;
-    font-size: 0.7rem;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 2px 6px;
-    border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Botão GitHub */
 .btn-github {
     display: flex;
     align-items: center;
@@ -277,20 +209,8 @@ body {
     opacity: 0.9;
 }
 
-.star-count {
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    font-size: 0.8rem;
-    opacity: 0.8;
-    border-left: 1px solid rgba(0, 0, 0, 0.15);
-    padding-left: 8px;
-    margin-left: 4px;
-}
-
 .mobile-menu-btn {
     display: none;
-    /* Escondido em desktop */
     background: none;
     border: none;
     color: var(--text-main);
@@ -448,16 +368,6 @@ h1 {
     background: var(--bg-card-hover);
 }
 
-/* Grid Spans */
-.card-large {
-    grid-column: span 2;
-    grid-row: span 2;
-}
-
-.card-wide {
-    grid-column: span 3;
-}
-
 .card-content {
     position: relative;
     z-index: 2;
@@ -466,7 +376,6 @@ h1 {
     flex-direction: column;
 }
 
-/* Cabeçalho do Card */
 .card-header-top {
     display: flex;
     justify-content: space-between;
@@ -486,7 +395,6 @@ h1 {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* Cores das Tags */
 .tag-css {
     color: #38bdf8;
     background: rgba(56, 189, 248, 0.1);
@@ -533,29 +441,6 @@ h1 {
     font-size: 0.95rem;
 }
 
-/* Elemento Visual Decorativo (Quadrados) */
-.visual-preview-grid {
-    margin-top: auto;
-    display: flex;
-    gap: 10px;
-    padding-top: 2rem;
-    opacity: 0.5;
-}
-
-.box {
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-[data-theme="light"] .box {
-    background: rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-/* Glow interno do card */
 .card-glow {
     position: absolute;
     width: 200px;
@@ -621,7 +506,6 @@ h1 {
     cursor: default;
 }
 
-/* Light mode marquee fix */
 [data-theme="light"] .marquee-content span {
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
 }
@@ -645,7 +529,6 @@ h1 {
 /* --- 7. Footer --- */
 .site-footer {
     background: var(--bg-dark);
-    /* Updated to use variable */
     border-top: 1px solid var(--border-light);
     padding: 4rem 0 2rem;
     font-size: 0.9rem;
@@ -721,7 +604,6 @@ h1 {
 
 /* --- 8. Responsividade (Media Queries) --- */
 
-/* Telas Médias (Tablet) - Adicionado para melhorar o grid */
 @media (max-width: 1024px) {
     h1 {
         font-size: 3rem;
@@ -731,30 +613,11 @@ h1 {
         display: none;
     }
 
-    .search-trigger {
-        min-width: auto;
-        width: 40px;
-        justify-content: center;
-        padding: 0;
-    }
-
-    .search-trigger span,
-    .search-trigger kbd {
-        display: none;
-    }
-
-    /* Grid vira 2 colunas */
     #bento-grid {
         grid-template-columns: 1fr 1fr;
     }
-
-    /* Remove o span de 3 colunas para caber em 2 */
-    .card-wide {
-        grid-column: span 2;
-    }
 }
 
-/* Telas Pequenas (Mobile) */
 @media (max-width: 768px) {
     .nav-actions {
         display: none;
@@ -766,14 +629,6 @@ h1 {
 
     #bento-grid {
         grid-template-columns: 1fr;
-        /* Vira 1 coluna */
-    }
-
-    /* Todos os cards ocupam 100% */
-    .card-large,
-    .card-wide {
-        grid-column: span 1;
-        grid-row: span 1;
     }
 
     .hero-text {
@@ -784,7 +639,6 @@ h1 {
         font-size: 2.5rem;
     }
 
-    /* Ajuste Marquee */
     .marquee-content span {
         font-size: 1.5rem;
     }
@@ -794,7 +648,6 @@ h1 {
         padding-left: 2rem;
     }
 
-    /* Ajuste Footer */
     .footer-container {
         flex-direction: column;
         gap: 2rem;
@@ -807,8 +660,6 @@ h1 {
     }
 }
 
-/* --- Custom Search Input Styles for Alura integration --- */
-/* Overriding .search-trigger to be an actual input container */
 .search-container {
     display: flex;
     align-items: center;
@@ -861,7 +712,6 @@ h1 {
     color: var(--text-main);
 }
 
-/* Animação de entrada */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -1004,301 +854,4 @@ h1 {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-}
-
-
-[data-theme="light"] .category-pill {
-    background: rgba(0, 0, 0, 0.05);
-    border-color: rgba(0, 0, 0, 0.1);
-    color: var(--text-dim);
-}
-
-.btn-sm {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-}
-
-/* --- 10. About / Articles Section --- */
-.about-desc {
-    color: var(--text-muted);
-    margin-bottom: 3rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    text-align: left;
-}
-
-.article-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-light);
-    border-radius: 16px;
-    padding: 1.5rem;
-    transition: all 0.3s;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.article-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--primary);
-    background: var(--bg-card-hover);
-}
-
-.article-tags {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-    flex-wrap: wrap;
-}
-
-.article-tag {
-    font-size: 0.7rem;
-    padding: 2px 8px;
-    border-radius: 4px;
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--text-muted);
-}
-
-.article-title {
-    font-family: var(--font-display);
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    color: var(--text-main);
-    line-height: 1.4;
-}
-
-.article-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.article-meta {
-    margin-top: auto;
-    padding-top: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.85rem;
-    color: var(--text-dim);
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.category-pill {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid var(--border-light);
-    padding: 10px 20px;
-    border-radius: 50px;
-    color: var(--text-muted);
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s;
-    text-decoration: none;
-}
-
-.category-pill:hover {
-    background: var(--primary-glow);
-    color: white;
-    border-color: var(--primary);
-    transform: translateY(-2px);
-}
-
-[data-theme="light"] .category-pill {
-    background: rgba(0, 0, 0, 0.05);
-    border-color: rgba(0, 0, 0, 0.1);
-    color: var(--text-dim);
-}
-
-.btn-sm {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-}
-
-/* --- 10. About / Articles Section --- */
-.about-desc {
-    color: var(--text-muted);
-    margin-bottom: 3rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    text-align: left;
-}
-
-.article-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-light);
-    border-radius: 16px;
-    padding: 1.5rem;
-    transition: all 0.3s;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.article-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--primary);
-    background: var(--bg-card-hover);
-}
-
-.article-tags {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-    flex-wrap: wrap;
-}
-
-.article-tag {
-    font-size: 0.7rem;
-    padding: 2px 8px;
-    border-radius: 4px;
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--text-muted);
-}
-
-.article-title {
-    font-family: var(--font-display);
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    color: var(--text-main);
-    line-height: 1.4;
-}
-
-.article-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.article-meta {
-    margin-top: auto;
-    padding-top: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.85rem;
-    color: var(--text-dim);
-}
-
-.article-author-img {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-}
-
-
-[data-theme="light"] .category-pill {
-    background: rgba(0, 0, 0, 0.05);
-    border-color: rgba(0, 0, 0, 0.1);
-    color: var(--text-dim);
-}
-
-.btn-sm {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-}
-
-/* --- 10. About / Articles Section --- */
-.about-desc {
-    color: var(--text-muted);
-    margin-bottom: 3rem;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    text-align: left;
-}
-
-.article-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border-light);
-    border-radius: 16px;
-    padding: 1.5rem;
-    transition: all 0.3s;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.article-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--primary);
-    background: var(--bg-card-hover);
-}
-
-.article-tags {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-    flex-wrap: wrap;
-}
-
-.article-tag {
-    font-size: 0.7rem;
-    padding: 2px 8px;
-    border-radius: 4px;
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--text-muted);
-}
-
-.article-title {
-    font-family: var(--font-display);
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    color: var(--text-main);
-    line-height: 1.4;
-}
-
-.article-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.article-meta {
-    margin-top: auto;
-    padding-top: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.85rem;
-    color: var(--text-dim);
-}
-
-.article-author-img {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-}
-
-/* --- Animations --- */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }

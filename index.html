@@ -29,7 +29,7 @@
 
         <header class="navbar">
             <div class="navbar-container" id="inicioA">
-                <a href="#inicioA" class="logo" aria-label="Alura Home">
+                <a href="#" class="logo" aria-label="Alura Home">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round" class="logo-icon" aria-hidden="true">
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
@@ -97,14 +97,12 @@
             <section id="categorias" class="categories-section">
                 <h2 class="section-title">Categorias</h2>
                 <div class="categories-container" id="categories-container">
-                    <!-- Categorias injetadas via JS -->
                 </div>
                 <button id="btn-show-more-categories" class="btn-secondary btn-sm" style="margin-top: 1rem;">Saiba
                     mais</button>
             </section>
 
             <section id="bento-grid" class="card-container">
-                <!-- Cards serão inseridos aqui via JavaScript -->
             </section>
 
 
@@ -112,7 +110,6 @@
                 <h2 class="section-title">Artigos</h2>
                 <p class="about-desc">Fique por dentro das últimas novidades do mundo dev direto do Dev.to.</p>
                 <div class="articles-grid" id="articles-grid">
-                    <!-- Artigos do Dev.to via JS -->
                 </div>
             </section>
 
@@ -120,30 +117,33 @@
                 <p class="section-label">Termos Populares</p>
 
                 <div class="marquee-container">
-                    <!-- Conteúdo será injetado via JS -->
                 </div>
             </section>
             <section id="sobre" class="about-section">
-                <h2 class="section-title">Sobre</h2>
-                <p class="about-desc">Project Z - Dicionário Tech para Desenvolvedores
-
-                    Descrição: Sou novo no mundo do Front-end e, durante a Imersão Dev da Alura com o Google, percebi
-                    uma barreira comum para quem está começando: a "sopa de letrinhas" da tecnologia. Nomes, siglas e
-                    comandos em inglês muitas vezes parecem abstratos, dificultando o aprendizado.
-
-                    O Project Z nasce para resolver isso. Não é apenas um glossário; é um guia que explica a etimologia
-                    e a lógica por trás dos termos. Por que "Array"? Por que "String"? Entender o significado literal e
-                    o motivo da criação da palavra torna a assimilação muito mais rápida.
-
-                    Destaques do Projeto:
-
-                    Integração com IA: Utilizei a API do Google Gemini para gerar as definições, traduções literais e
-                    contextos históricos dos termos.
-
-                    Design: Interface moderna inspirada no "React Bits".
-
-                    Objetivo: Testar minha capacidade de desenvolvimento web e criar uma ferramenta útil para a
-                    comunidade brasileira.</p>
+                <h2 class="section-title">Sobre o Projeto</h2>
+                <p class="about-desc">
+                    O Project Z é um dicionário técnico interativo desenvolvido para facilitar o aprendizado de
+                    programação para desenvolvedores brasileiros. Durante a Imersão Dev da Alura com o Google,
+                    identifiquei uma barreira comum enfrentada por iniciantes: a dificuldade em compreender termos
+                    técnicos em inglês que, muitas vezes, parecem abstratos e desconectados de seu propósito real.
+                </p>
+                <p class="about-desc">
+                    Este projeto vai além de um simples glossário. Ele explica a etimologia e a lógica por trás de
+                    cada termo técnico, conectando o significado literal da palavra em inglês com sua aplicação no
+                    código. Por exemplo, entender que "Array" significa "arranjo" ou "conjunto ordenado" e "Fetch"
+                    significa "buscar" torna a assimilação desses conceitos muito mais intuitiva e rápida.
+                </p>
+                <p class="about-desc">
+                    <strong>Principais características:</strong><br><br>
+                    <strong>Integração com Inteligência Artificial:</strong> Utilizei a API do Google Gemini para
+                    gerar definições precisas, traduções literais e contextos históricos dos termos técnicos.<br><br>
+                    <strong>Design Moderno:</strong> Interface inspirada em conceitos de design contemporâneo,
+                    com efeitos de glassmorphism e animações suaves para uma experiência visual agradável.<br><br>
+                    <strong>Tecnologia Pura:</strong> Desenvolvido com HTML5, CSS3 e JavaScript vanilla, sem
+                    dependência de frameworks, garantindo performance e leveza.<br><br>
+                    <strong>Objetivo:</strong> Criar uma ferramenta educacional útil para a comunidade brasileira
+                    de desenvolvimento, facilitando o aprendizado através da compreensão contextual dos termos técnicos.
+                </p>
             </section>
         </main>
 
@@ -158,16 +158,50 @@
                         <span>Project Z</span>
                     </div>
                     <p class="footer-desc">
-                        Mergulhe em tecnologia.
+                        Dicionário técnico para desenvolvedores brasileiros. Aprenda programação entendendo o
+                        significado real dos termos.
                     </p>
                     <p class="footer-copy">© 2025 TheRazorbill. Todos os direitos reservados.</p>
                 </div>
 
                 <div class="footer-links-group">
                     <div class="footer-column">
-                        <h4>Links</h4>
-                        <a href="https://www.alura.com.br/" target="_blank">Alura</a>
-                        <a href="https://github.com/TheRazorbill" target="_blank">GitHub</a>
+                        <h4>Produto</h4>
+                        <a href="#">Início</a>
+                        <a href="#categorias">Categorias</a>
+                        <a href="#artigos">Artigos</a>
+                        <a href="#sobre">Sobre</a>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Recursos</h4>
+                        <a href="https://www.alura.com.br/" target="_blank" rel="noopener noreferrer">Alura</a>
+                        <a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web
+                            Docs</a>
+                        <a href="https://dev.to/" target="_blank" rel="noopener noreferrer">Dev.to</a>
+                        <a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">Stack
+                            Overflow</a>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Comunidade</h4>
+                        <a href="https://github.com/TheRazorbill" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/rahian/" target="_blank"
+                            rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter (nem tenho)</a>
+                        <a href="https://discordapp.com/users/415596943444541441" target="_blank"
+                            rel="noopener noreferrer">Discord</a>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Tecnologias</h4>
+                        <a href="https://ai.google.dev/" target="_blank" rel="noopener noreferrer">Google Gemini</a>
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"
+                            rel="noopener noreferrer">JavaScript</a>
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"
+                            rel="noopener noreferrer">HTML5</a>
+                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"
+                            rel="noopener noreferrer">CSS3</a>
                     </div>
                 </div>
             </div>

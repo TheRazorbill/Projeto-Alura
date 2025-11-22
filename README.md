@@ -8,11 +8,13 @@
 </div>
 </div>
 
+
 > **"Não decore comandos. Entenda o significado literal por trás do código."**
 
-O **English for Devs** é uma base de conhecimento interativa focada em descomplicar o "tech-speak". Conectamos o significado literal de termos técnicos em inglês (ex: *Fetch* = "Ir buscar") à sua função real no código, tornando o aprendizado de programação mais intuitivo para brasileiros.
+O **English for Devs** é uma base de conhecimento interativa desenvolvida para descomplicar a terminologia técnica em inglês. O projeto conecta o significado literal de termos técnicos (por exemplo, *Fetch* = "Ir buscar") à sua função real no código, tornando o aprendizado de programação mais intuitivo e acessível para desenvolvedores brasileiros.
 
- **Projeto desenvolvido durante a Imersão Dev com Google Gemini e Alura.**
+**Projeto desenvolvido durante a Imersão Dev com Google Gemini e Alura.**
+
 
 <img width="1897" height="1095" alt="image" src="https://github.com/user-attachments/assets/df3d6026-d087-4d02-96e4-071be24c38b2" />
 
@@ -23,25 +25,28 @@ O **English for Devs** é uma base de conhecimento interativa focada em descompl
     
 </div>
 
-Muitos iniciantes travam na programação porque os termos parecem abstratos. Nesta aplicação, você busca um termo e descobre:
+Muitos iniciantes enfrentam dificuldades na programação porque os termos técnicos parecem abstratos e desconectados de seu significado real. Nesta aplicação, você busca um termo e descobre:
+
 1. **Tradução Literal:** A origem da palavra no inglês cotidiano.
-2. **Explicação Técnica:** O que ela faz no código, sem "tiopês".
-3. **Contextualização:** Categoria gramatical e técnica.
+2. **Explicação Técnica:** O que ela faz no código, de forma clara e objetiva.
+3. **Contextualização:** Categoria gramatical e técnica do termo.
 4. **Aprofundamento:** Link direto para documentações oficiais (MDN, Git-scm, etc.).
+
 
 ---
 
 <div align="center">
-  <h2>Funcionalidades & Diferenciais</h2>
+  <h2>Funcionalidades e Diferenciais</h2>
     
 </div>
 
-* **Busca Inteligente:** Filtragem em tempo real por termo, tradução ou explicação.
-* **UI/UX Imersiva:** Design moderno com efeito *glassmorphism*, animações de partículas em Canvas e transições suaves.
-* **Filtros Dinâmicos:** Navegação por categorias (Verbos, Infra, Front-end, etc.).
-* **Dark/Light Mode:** Alternância de tema persistente e adaptável.
-* **Integração com API:** Seção "Artigos" que consome conteúdo real do Dev.to.
-* **Conteúdo via IA:** Base de dados inicial gerada e estruturada com auxílio do **Google Gemini**.
+* **Busca Inteligente:** Filtragem em tempo real por termo, tradução ou explicação técnica.
+* **Interface Moderna:** Design com efeito glassmorphism, animações de partículas em Canvas e transições suaves.
+* **Filtros Dinâmicos:** Navegação organizada por categorias (Verbos, Infraestrutura, Front-end, etc.).
+* **Alternância de Tema:** Modo claro e escuro com persistência de preferência do usuário.
+* **Integração com API:** Seção de artigos que consome conteúdo atualizado do Dev.to.
+* **Conteúdo Gerado por IA:** Base de dados inicial estruturada com auxílio do Google Gemini.
+
 
 ---
 
@@ -49,12 +54,13 @@ Muitos iniciantes travam na programação porque os termos parecem abstratos. Ne
   <h2>Tecnologias Utilizadas</h2>
 </div>  
 
-Este projeto foi construído focando nos fundamentos da web moderna, sem uso de frameworks JS (como React ou Vue), garantindo performance e leveza.
+Este projeto foi construído com foco nos fundamentos da web moderna, sem uso de frameworks JavaScript (como React ou Vue), garantindo performance e leveza.
 
-* **HTML5 Semântico:** Estrutura acessível e organizada.
-* **CSS3 Moderno:** Uso de CSS Variables, Grid, Flexbox e animações keyframe.
-* **JavaScript (Vanilla):** Lógica de busca, manipulação do DOM, consumo de APIs e renderização do Canvas.
-* **Google Gemini + Node.js (Automação):** Script auxiliar (`gerador.js`) criado para expandir a base de dados (`data.json`) de forma automatizada antes do deploy.
+* **HTML5 Semântico:** Estrutura acessível e bem organizada.
+* **CSS3 Moderno:** Uso de CSS Variables, Grid, Flexbox e animações com keyframes.
+* **JavaScript Vanilla:** Lógica de busca, manipulação do DOM, consumo de APIs e renderização de Canvas.
+* **Google Gemini + Node.js:** Script de automação (`gerador.js`) para expandir a base de dados (`data.json`) de forma automatizada.
+
 
 ---
 
@@ -62,25 +68,28 @@ Este projeto foi construído focando nos fundamentos da web moderna, sem uso de 
   <h2>Como Rodar Localmente</h2>
 </div>  
 
-O projeto é estático e não requer instalação de dependências para rodar no navegador.
+O projeto é estático e não requer instalação de dependências para execução no navegador.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/TheRazorbill/Projeto-Alura](https://github.com/TheRazorbill/Projeto-Alura)
+    git clone https://github.com/TheRazorbill/Projeto-Alura
     ```
-2.  **Abra a pasta** no VS Code.
+2.  **Abra a pasta do projeto** no VS Code ou editor de sua preferência.
 3.  **Execute:** Utilize a extensão "Live Server" para abrir o `index.html` ou abra o arquivo diretamente no navegador.
 
-> *Nota: O arquivo `package.json` e os scripts Node servem apenas para a automação de geração de dados via IA, não sendo necessários para visualizar o site.*
+> **Nota:** O arquivo `package.json` e os scripts Node.js servem apenas para automação de geração de dados via IA, não sendo necessários para visualizar o site.
+
 
 ---
 
 <div align="center">
-  <h2>Link do Projeto</h2>
+  <h2>Demonstração Online</h2>
 </div> 
 
-Acesse a aplicação online:
- **[English for Devs - Live Demo](https://therazorbill.github.io/Projeto-Alura/)**
+Acesse a aplicação em funcionamento:
+
+**[English for Devs - Demo ao Vivo](https://therazorbill.github.io/Projeto-Alura/)**
+
 
 <div align="center">
 <img width="250" height="250" alt="image" src="assets/gif.gif" />
@@ -95,6 +104,6 @@ Acesse a aplicação online:
 
 Desenvolvido por **RazorBill** como projeto final da **Imersão Dev Alura + Google**.
 
-* Design Concept: Inspirado no React Bits e Material Design.
-* Dados: Gerados com Google Gemini 2.5.
-* Apoio Educacional: Alura.
+* **Design:** Inspirado em conceitos de React Bits e Material Design.
+* **Geração de Dados:** Google Gemini 2.5.
+* **Apoio Educacional:** Alura.
