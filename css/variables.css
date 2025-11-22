@@ -1,0 +1,37 @@
+/* --- Variáveis & Temas --- */
+:root {
+    --bg-dark: #060010;
+    --bg-card: rgba(255, 255, 255, 0.03);
+    --bg-card-hover: rgba(255, 255, 255, 0.06);
+
+    --primary: #8a2be2;
+    --primary-glow: rgba(138, 43, 226, 0.5);
+    --accent-pink: #e879f9;
+
+    --text-main: #ffffff;
+    --text-muted: #94a3b8;
+    --text-dim: #52525b;
+
+    --border-light: rgba(255, 255, 255, 0.06);
+    --border-hover: rgba(255, 255, 255, 0.15);
+
+    --nav-bg: rgba(6, 0, 16, 0.6);
+    --nav-blur: 16px;
+    --nav-border: rgba(255, 255, 255, 0.08);
+
+    --font-display: 'Bricolage Grotesque', sans-serif;
+    --font-body: 'Inter', sans-serif;
+}
+
+[data-theme="light"] {
+    --bg-dark: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f1f5f9;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --text-dim: #94a3b8;
+    --border-light: rgba(0, 0, 0, 0.1);
+    --border-hover: rgba(0, 0, 0, 0.2);
+    --nav-bg: rgba(255, 255, 255, 0.8);
+    --nav-border: rgba(0, 0, 0, 0.1);
+}
