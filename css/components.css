@@ -567,3 +567,40 @@ h1 {
         padding-left: 2rem;
     }
 }
+
+/* --- Theme Toggle Button --- */
+#theme-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--text-main);
+    padding: 0;
+    margin-right: 0.75rem;
+    outline: none;
+}
+
+#theme-toggle:focus {
+    outline: none;
+}
+
+/* Define os ícones de sol e lua */
+#theme-toggle::before {
+    content: '🌑';
+}
+
+[data-theme="dark"] #theme-toggle::before {
+    content: '🌤️';
+}
+
+/* Esconde o botão original em telas mobile para evitar duplicidade */
+@media (max-width: 1024px) {
+    .nav-actions > #theme-toggle {
+        display: none;
+    }
+}
+
+/* Garante que o botão de tema no mobile não tenha margem desnecessária */
+#theme-toggle-mobile {
+    margin-right: 0;
+}
