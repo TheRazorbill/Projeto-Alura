@@ -385,12 +385,12 @@ h1 {
 .search-container {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid var(--border-light);
-    padding: 4px 12px;
+    padding: 4px; /* Removido padding horizontal para controle total do input */
     border-radius: 8px;
     transition: all 0.2s;
+    position: relative; /* Necessário para posicionar o botão da lupa */
 }
 
 [data-theme="light"] .search-container {
@@ -413,7 +413,9 @@ h1 {
     font-family: var(--font-body);
     font-size: 0.9rem;
     outline: none;
-    width: 200px;
+    width: 100%; /* Ocupa todo o espaço do container */
+    padding: 0 32px 0 8px; /* Espaço para o ícone à direita e um respiro à esquerda */
+    height: 30px; /* Altura consistente */
 }
 
 .search-container input::placeholder {
@@ -421,13 +423,14 @@ h1 {
 }
 
 .search-container button {
+    position: absolute; /* Posiciona o botão sobre o input */
+    right: 8px; /* Alinha à direita */
+    top: 50%;
+    transform: translateY(-50%); /* Centraliza verticalmente */
     background: transparent;
     border: none;
     color: var(--text-muted);
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .search-container button:hover {
