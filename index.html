@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Base de conhecimento Alura" />
+    <title>English for Devs | Dicionário Tech</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+  </head>
+
+  <body>
+    <div class="background-effects">
+      <div class="glow-top"></div>
+      <div class="grid-pattern"></div>
+      <canvas id="star-canvas"></canvas>
+    </div>
+
+    <div class="layout-wrapper">
+      <header class="navbar">
+        <div class="navbar-container" id="inicioA">
+          <a href="#" class="logo" aria-label="Alura Home">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="logo-icon"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+              />
+            </svg>
+            Project Z<span class="badge">Knowledge</span>
+          </a>
+
+          <nav class="nav-center">
+            <a href="#" class="nav-link active">Início</a>
+            <a href="#categorias" class="nav-link">Categorias</a>
+            <a href="#artigos" class="nav-link">Artigos</a>
+            <a href="#flash" class="nav-link">Modo Treino</a>
+            <a href="#sobre" class="nav-link">Sobre</a>
+          </nav>
+
+          <div class="nav-actions">
+            <button id="theme-toggle" aria-label="Alternar Tema"></button>
+            <div class="search-container">
+              <input
+                type="text"
+                placeholder="Busque 'Merge', 'Bug'..."
+                id="campo-busca"
+              />
+              <button id="botao-busca" type="button" aria-label="Buscar">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  aria-hidden="true"
+                >
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </button>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Abrir Menu">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </button>
+
+            <a
+              href="https://github.com/TheRazorbill"
+              class="btn-github"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Container para o menu mobile -->
+      <div id="mobile-menu" class="mobile-menu"></div>
+
+      <main>
+        <section class="hero-text">
+          <canvas id="hero-canvas"></canvas>
+          <div class="pill-new">
+            <span>Projeto Imersão Dev</span>
+          </div>
+          <h1>
+            English for <br />
+            <span class="text-gradient">Developers</span>
+          </h1>
+          <p>
+            Não decore comandos. Entenda o significado literal por trás do
+            código e aprenda mais rápido.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#bento-grid" class="btn-primary">Explorar Termos</a>
+            <a
+              href="https://github.com/TheRazorbill"
+              target="_blank"
+              class="btn-secondary"
+              >Ver no GitHub</a
+            >
+          </div>
+        </section>
+
+        <section id="categorias" class="categories-section">
+          <h2 class="section-title">Categorias</h2>
+          <div class="categories-container" id="categories-container"></div>
+          <button
+            id="btn-show-more-categories"
+            class="btn-secondary btn-sm"
+            style="margin-top: 1rem"
+          >
+            Saiba mais
+          </button>
+        </section>
+
+        <section id="bento-grid" class="card-container"></section>
+
+        <section id="artigos" class="about-section">
+          <h2 class="section-title">Artigos</h2>
+          <p class="about-desc">
+            Fique por dentro das últimas novidades do mundo dev direto do
+            Dev.to.
+          </p>
+          <div class="articles-grid" id="articles-grid"></div>
+        </section>
+
+        <section class="partners-section" id="flash">
+          <p class="section-label">Termos Populares</p>
+
+          <div class="marquee-container"></div>
+        </section>
+
+        <section id="flashcard-section" class="flashcard-section">
+          <h2 class="section-title">Modo Treino</h2>
+          <p class="about-desc">
+            Teste seus conhecimentos! Clique no flashcard para revelar a
+            resposta. Use "Acertei" para ganhar pontos e "Errei" para perder.
+            Complete 10 flashcards para desbloquear o Nível 2 e continue
+            treinando para bater seu recorde de sequência!
+          </p>
+
+          <!-- Game Stats -->
+          <div class="game-stats">
+            <div class="stat-card">
+              <span class="stat-label">Pontos</span>
+              <span class="stat-value" id="score">0</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Sequência</span>
+              <span class="stat-value" id="streak">0</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Melhor</span>
+              <span class="stat-value" id="best-streak">0</span>
+            </div>
+          </div>
+
+          <!-- Progress Bar -->
+          <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <div class="level-message-wrapper">
+            <div class="level-display" id="level-display" style="display: none">
+              Parabéns! Nível 2 Desbloqueado!
+            </div>
+          </div>
+
+          <div class="flashcard-container" id="flashcard-container"></div>
+
+          <!-- Game Buttons -->
+          <div class="game-buttons">
+            <button id="correct-btn" class="btn-success btn-sm">
+              ✓ Acertei
+            </button>
+            <button id="next-flashcard" class="btn-primary btn-sm">
+              → Próximo
+            </button>
+            <button id="wrong-btn" class="btn-danger btn-sm">✕ Errei</button>
+          </div>
+
+          <!-- Reset Button -->
+          <button
+            id="reset-game"
+            class="btn-secondary btn-sm"
+            style="margin-top: 1rem; display: none"
+          >
+            Reiniciar
+          </button>
+        </section>
+
+        <section id="sobre" class="about-section">
+          <h2 class="section-title">Sobre o Projeto</h2>
+          <p class="about-desc">
+            O Project Z é um dicionário técnico interativo desenvolvido para
+            facilitar o aprendizado de programação para desenvolvedores
+            brasileiros. Durante a Imersão Dev da Alura com o Google,
+            identifiquei uma barreira comum enfrentada por iniciantes: a
+            dificuldade em compreender termos técnicos em inglês que, muitas
+            vezes, parecem abstratos e desconectados de seu propósito real.
+          </p>
+          <p class="about-desc">
+            Este projeto vai além de um simples glossário. Ele explica a
+            etimologia e a lógica por trás de cada termo técnico, conectando o
+            significado literal da palavra em inglês com sua aplicação no
+            código. Por exemplo, entender que "Array" significa "arranjo" ou
+            "conjunto ordenado" e "Fetch" significa "buscar" torna a assimilação
+            desses conceitos muito mais intuitiva e rápida.
+          </p>
+          <p class="about-desc">
+            <strong>Principais características:</strong><br /><br />
+            <strong>Integração com Inteligência Artificial:</strong> Utilizei a
+            API do Google Gemini para gerar definições precisas, traduções
+            literais e contextos históricos dos termos técnicos.<br /><br />
+            <strong>Design Moderno:</strong> Interface inspirada em conceitos de
+            design contemporâneo, com efeitos de glassmorphism e animações
+            suaves para uma experiência visual agradável.<br /><br />
+            <strong>Tecnologia Pura:</strong> Desenvolvido com HTML5, CSS3 e
+            JavaScript vanilla, sem dependência de frameworks, garantindo
+            performance e leveza.<br /><br />
+            <strong>Objetivo:</strong> Criar uma ferramenta educacional útil
+            para a comunidade brasileira de desenvolvimento, facilitando o
+            aprendizado através da compreensão contextual dos termos técnicos.
+          </p>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-brand">
+            <div class="logo-footer">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+                />
+              </svg>
+              <span>Project Z</span>
+            </div>
+            <p class="footer-desc">
+              Dicionário técnico para desenvolvedores brasileiros. Aprenda
+              programação entendendo o significado real dos termos.
+            </p>
+            <p class="footer-copy">
+              © 2025 TheRazorbill. Todos os direitos reservados.
+            </p>
+          </div>
+
+          <div class="footer-links-group">
+            <div class="footer-column">
+              <h4>Produto</h4>
+              <a href="#">Início</a>
+              <a href="#categorias">Categorias</a>
+              <a href="#artigos">Artigos</a>
+              <a href="#sobre">Sobre</a>
+            </div>
+
+            <div class="footer-column">
+              <h4>Recursos</h4>
+              <a
+                href="https://www.alura.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Alura</a
+              >
+              <a
+                href="https://developer.mozilla.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >MDN Web Docs</a
+              >
+              <a
+                href="https://dev.to/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Dev.to</a
+              >
+              <a
+                href="https://stackoverflow.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Stack Overflow</a
+              >
+            </div>
+
+            <div class="footer-column">
+              <h4>Comunidade</h4>
+              <a
+                href="https://github.com/TheRazorbill"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/rahian/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter (nem tenho)</a
+              >
+              <a
+                href="https://discordapp.com/users/415596943444541441"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Discord</a
+              >
+            </div>
+
+            <div class="footer-column">
+              <h4>Tecnologias</h4>
+              <a
+                href="https://ai.google.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Google Gemini</a
+              >
+              <a
+                href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+                target="_blank"
+                rel="noopener noreferrer"
+                >JavaScript</a
+              >
+              <a
+                href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+                target="_blank"
+                rel="noopener noreferrer"
+                >HTML5</a
+              >
+              <a
+                href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+                target="_blank"
+                rel="noopener noreferrer"
+                >CSS3</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

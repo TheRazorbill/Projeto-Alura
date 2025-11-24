@@ -1,0 +1,1752 @@
+[
+  {
+    "termo": "Fetch",
+    "traducaoLiteral": "Ir buscar / Trazer",
+    "explicacaoTecnica": "Comando usado para ir buscar dados em um servidor externo (API). É como mandar um cachorro buscar a bola.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API"
+  },
+  {
+    "termo": "Merge",
+    "traducaoLiteral": "Fundir / Misturar",
+    "explicacaoTecnica": "Ato de unir dois históricos de código diferentes em um só. Como juntar duas faixas de trânsito em uma.",
+    "categoria": "Verbo",
+    "link": "https://git-scm.com/docs/git-merge"
+  },
+  {
+    "termo": "Commit",
+    "traducaoLiteral": "Comprometer-se / Consignar",
+    "explicacaoTecnica": "Salvar um ponto na história do seu código. É como assinar um contrato dizendo 'isso aqui está pronto'.",
+    "categoria": "Verbo",
+    "link": "https://git-scm.com/docs/git-commit"
+  },
+  {
+    "termo": "Bug",
+    "traducaoLiteral": "Inseto",
+    "explicacaoTecnica": "Um erro ou falha no código. O termo surgiu quando um inseto real travou um computador antigo.",
+    "categoria": "Substantivo",
+    "link": "https://pt.wikipedia.org/wiki/Bug"
+  },
+  {
+    "termo": "Deploy",
+    "traducaoLiteral": "Implantar / Despachar",
+    "explicacaoTecnica": "O ato de colocar seu sistema no ar para uso real. É como enviar as tropas para o campo de batalha.",
+    "categoria": "Verbo",
+    "link": "https://aws.amazon.com/pt/what-is/deployment/"
+  },
+  {
+    "termo": "Callback",
+    "traducaoLiteral": "Chamar de volta",
+    "explicacaoTecnica": "Uma função passada a outra função que será executada (chamada de volta) em um momento posterior.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function"
+  },
+  {
+    "termo": "Thread",
+    "traducaoLiteral": "Fio / Linha",
+    "explicacaoTecnica": "Uma linha de execução de tarefas. O processador puxa vários 'fios' de tarefas ao mesmo tempo.",
+    "categoria": "Infra",
+    "link": "https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)"
+  },
+  {
+    "termo": "Null",
+    "traducaoLiteral": "Nulo / Sem valor",
+    "explicacaoTecnica": "Representa a ausência intencional de qualquer valor ou objeto.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/null"
+  },
+  {
+    "termo": "Framework",
+    "traducaoLiteral": "Estrutura / Armação",
+    "explicacaoTecnica": "Uma base de código pré-pronta onde você constrói seu software. Como o esqueleto de um prédio.",
+    "categoria": "Substantivo",
+    "link": "https://pt.wikipedia.org/wiki/Framework"
+  },
+  {
+    "termo": "Bootstrap",
+    "traducaoLiteral": "Alça de bota",
+    "explicacaoTecnica": "Processo de inicialização automática. Vem da expressão 'puxar-se pelas próprias alças da bota' (fazer algo sozinho).",
+    "categoria": "Verbo",
+    "link": "https://pt.wikipedia.org/wiki/Boot_strapping"
+  },
+  {
+    "termo": "Seed",
+    "traducaoLiteral": "Semente",
+    "explicacaoTecnica": "Dados iniciais usados para popular um banco de dados vazio para testes.",
+    "categoria": "Banco de Dados",
+    "link": "https://en.wikipedia.org/wiki/Database_seeding"
+  },
+  {
+    "termo": "Cloud",
+    "traducaoLiteral": "Nuvem",
+    "explicacaoTecnica": "Servidores acessados pela internet, e não localmente. Seus dados estão 'flutuando' em algum lugar acessível.",
+    "categoria": "Infra",
+    "link": "https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-cloud-computing/"
+  },
+  {
+    "termo": "Scrum",
+    "traducaoLiteral": "Formação de Rugby",
+    "explicacaoTecnica": "Metodologia ágil onde o time se junta para empurrar o projeto para frente, como no esporte Rugby.",
+    "categoria": "Metodologia",
+    "link": "https://www.atlassian.com/br/agile/scrum"
+  },
+  {
+    "termo": "Middleware",
+    "traducaoLiteral": "Meio-ware (Mercadoria do meio)",
+    "explicacaoTecnica": "Software que fica no meio do caminho entre o sistema operacional e as aplicações, ou entre requisição e resposta.",
+    "categoria": "Conceito",
+    "link": "https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-middleware/"
+  },
+  {
+    "termo": "DOM",
+    "traducaoLiteral": "Document Object Model",
+    "explicacaoTecnica": "A representação da sua página HTML em formato de árvore que o JS consegue manipular.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model"
+  },
+  {
+    "termo": "Clone",
+    "traducaoLiteral": "Clonar, Copiar",
+    "explicacaoTecnica": "Em Git, criar uma cópia idêntica de um repositório remoto para a sua máquina local, incluindo todo o histórico de versões.",
+    "categoria": "Verbo",
+    "link": "https://git-scm.com/docs/git-clone"
+  },
+  {
+    "termo": "Rebase",
+    "traducaoLiteral": "Reassentar, Basear Novamente",
+    "explicacaoTecnica": "Em Git, reescrever o histórico de uma branch movendo ou combinando commits para que pareça ter começado de um ponto diferente (nova base).",
+    "categoria": "Verbo",
+    "link": "https://git-scm.com/docs/git-rebase"
+  },
+  {
+    "termo": "Stash",
+    "traducaoLiteral": "Esconderijo, Esconder",
+    "explicacaoTecnica": "Em Git, guardar temporariamente as modificações de trabalho não-commitadas para limpar o diretório, permitindo que você mude de branch, por exemplo.",
+    "categoria": "Verbo",
+    "link": "https://git-scm.com/docs/git-stash"
+  },
+  {
+    "termo": "Payload",
+    "traducaoLiteral": "Carga útil",
+    "explicacaoTecnica": "A parte principal dos dados que está sendo transmitida em uma requisição (API ou rede), excluindo metadados e cabeçalhos de controle.",
+    "categoria": "Substantivo",
+    "link": "https://www.techopedia.com/definition/31807/payload"
+  },
+  {
+    "termo": "Header",
+    "traducaoLiteral": "Cabeçalho",
+    "explicacaoTecnica": "Metadados anexados ao início de uma mensagem ou pacote (como em HTTP) que fornecem informações de controle essenciais (ex: tipo de conteúdo, autenticação).",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/HTTP_header"
+  },
+  {
+    "termo": "Endpoint",
+    "traducaoLiteral": "Ponto Final",
+    "explicacaoTecnica": "O URL específico de um servidor API onde os recursos podem ser acessados ou onde as solicitações de dados terminam e são processadas.",
+    "categoria": "Substantivo",
+    "link": "https://restfulapi.net/resource-naming/"
+  },
+  {
+    "termo": "Latency",
+    "traducaoLiteral": "Latência, Atraso",
+    "explicacaoTecnica": "O tempo de atraso entre o envio de uma solicitação por um cliente e o recebimento da resposta pelo servidor, crucial para a performance de rede.",
+    "categoria": "Conceito",
+    "link": "https://en.wikipedia.org/wiki/Latency_(engineering)"
+  },
+  {
+    "termo": "Cache",
+    "traducaoLiteral": "Esconderijo, Depósito",
+    "explicacaoTecnica": "Uma camada de armazenamento temporário que guarda cópias de dados para que futuras solicitações a esses dados sejam processadas mais rapidamente, economizando tempo e recursos.",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/Cache"
+  },
+  {
+    "termo": "Router",
+    "traducaoLiteral": "Roteador",
+    "explicacaoTecnica": "Um mecanismo de software que mapeia uma URL de entrada (rota) para o código de manipulação apropriado dentro de uma aplicação web.",
+    "categoria": "Substantivo",
+    "link": "https://en.wikipedia.org/wiki/Router_(computing)"
+  },
+  {
+    "termo": "Scope",
+    "traducaoLiteral": "Escopo, Alcance",
+    "explicacaoTecnica": "O contexto de onde as variáveis e funções podem ser acessadas e referenciadas dentro de um programa, definindo sua visibilidade.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/Scope"
+  },
+  {
+    "termo": "Closure",
+    "traducaoLiteral": "Fechamento, Encapsulamento",
+    "explicacaoTecnica": "Um conceito onde uma função 'lembra' e pode acessar variáveis do ambiente em que foi criada, mesmo quando é executada fora daquele ambiente original.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+  },
+  {
+    "termo": "Inheritance",
+    "traducaoLiteral": "Herança",
+    "explicacaoTecnica": "Um mecanismo em Programação Orientada a Objetos (POO) onde uma classe (subclasse) adquire e reutiliza as propriedades e métodos de outra classe (superclasse).",
+    "categoria": "Conceito",
+    "link": "https://www.geeksforgeeks.org/inheritance-in-object-oriented-programming/"
+  },
+  {
+    "termo": "Polymorphism",
+    "traducaoLiteral": "Polimorfismo (Muitas Formas)",
+    "explicacaoTecnica": "A capacidade de uma interface, função ou método se comportar de diferentes maneiras ou aceitar diferentes tipos de dados, dependendo do contexto.",
+    "categoria": "Conceito",
+    "link": "https://www.geeksforgeeks.org/polymorphism-in-object-oriented-programming/"
+  },
+  {
+    "termo": "Static",
+    "traducaoLiteral": "Estático, Fixo",
+    "explicacaoTecnica": "Um atributo ou método que pertence à própria classe, em vez de pertencer a uma instância específica dessa classe, e é carregado na memória apenas uma vez.",
+    "categoria": "Conceito",
+    "link": "https://en.wikipedia.org/wiki/Static_variable"
+  },
+  {
+    "termo": "Container",
+    "traducaoLiteral": "Recipiente, Contêiner",
+    "explicacaoTecnica": "Um pacote executável de software que inclui tudo o que é necessário para rodar uma aplicação: código, bibliotecas, configurações e ambiente de execução.",
+    "categoria": "Infra",
+    "link": "https://www.docker.com/resources/what-container/"
+  },
+  {
+    "termo": "Cluster",
+    "traducaoLiteral": "Agrupamento, Cacho",
+    "explicacaoTecnica": "Um grupo de computadores (servidores) interconectados que trabalham juntos para executar tarefas, sendo vistos como um único sistema lógico de alta disponibilidade.",
+    "categoria": "Infra",
+    "link": "https://en.wikipedia.org/wiki/Computer_cluster"
+  },
+  {
+    "termo": "Orchestration",
+    "traducaoLiteral": "Orquestração",
+    "explicacaoTecnica": "O gerenciamento automatizado da coordenação, implantação, rede e escalonamento de contêineres e serviços em ambientes distribuídos.",
+    "categoria": "Infra",
+    "link": "https://www.redhat.com/en/topics/automation/what-is-orchestration"
+  },
+  {
+    "termo": "Scaling",
+    "traducaoLiteral": "Escalonamento, Aumentar Escala",
+    "explicacaoTecnica": "A capacidade de um sistema (aplicação ou infraestrutura) de lidar com um aumento no volume de trabalho (tráfego ou dados) de forma eficiente.",
+    "categoria": "Conceito",
+    "link": "https://en.wikipedia.org/wiki/Scalability"
+  },
+  {
+    "termo": "Render",
+    "traducaoLiteral": "Tornar, Apresentar",
+    "explicacaoTecnica": "O processo de gerar a representação visual final de algo (ex: o navegador renderiza o HTML, CSS e JavaScript para mostrar a interface na tela).",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/Rendering"
+  },
+  {
+    "termo": "Component",
+    "traducaoLiteral": "Componente, Peça",
+    "explicacaoTecnica": "Uma parte independente e reutilizável da interface de usuário (UI) que possui sua própria lógica e aparência, facilitando o desenvolvimento modular.",
+    "categoria": "Front-end",
+    "link": "https://reactjs.org/docs/components-and-props.html"
+  },
+  {
+    "termo": "Hover",
+    "traducaoLiteral": "Pairar, Flutuar",
+    "explicacaoTecnica": "A ação do usuário de mover o cursor do mouse sobre um elemento da interface sem clicar, geralmente ativando um estilo ou comportamento específico.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover"
+  },
+  {
+    "termo": "Query",
+    "traducaoLiteral": "Consulta, Pergunta",
+    "explicacaoTecnica": "Uma solicitação formal feita a um banco de dados usando uma linguagem específica (como SQL) para recuperar, modificar ou gerenciar dados.",
+    "categoria": "Banco de Dados",
+    "link": "https://en.wikipedia.org/wiki/Query_language"
+  },
+  {
+    "termo": "Index",
+    "traducaoLiteral": "Índice",
+    "explicacaoTecnica": "Uma estrutura de dados usada por bancos de dados para acelerar drasticamente a recuperação de linhas, funcionando como um índice de um livro.",
+    "categoria": "Banco de Dados",
+    "link": "https://www.geeksforgeeks.org/indexing-in-databases/"
+  },
+  {
+    "termo": "Stub",
+    "traducaoLiteral": "Toco, Coto, Pedacinho",
+    "explicacaoTecnica": "Uma implementação mínima de uma função ou módulo usada em testes para simular o comportamento de um componente real que ainda não está pronto ou que é externo.",
+    "categoria": "Conceito",
+    "link": "https://en.wikipedia.org/wiki/Method_stub"
+  },
+  {
+    "termo": "Push",
+    "traducaoLiteral": "Empurrar",
+    "explicacaoTecnica": "Em Git, o ato de enviar as alterações e commits da sua cópia local do repositório para o repositório remoto (o 'central').",
+    "categoria": "Verbo",
+    "link": "https://git-scm.com/docs/git-push"
+  },
+  {
+    "termo": "Pull",
+    "traducaoLiteral": "Puxar",
+    "explicacaoTecnica": "O oposto do Push. Traz as alterações do repositório remoto para o seu local.",
+    "categoria": "Verbo",
+    "link": "https://git-scm.com/docs/git-pull"
+  },
+  {
+    "termo": "Full Stack",
+    "traducaoLiteral": "Pilha Cheia / Completa",
+    "explicacaoTecnica": "Desenvolvedor que trabalha tanto no Front-end (interface) quanto no Back-end (servidor).",
+    "categoria": "Conceito",
+    "link": "https://www.w3schools.com/whatis/whatis_fullstack.asp"
+  },
+  {
+    "termo": "Breakpoint",
+    "traducaoLiteral": "Ponto de Parada",
+    "explicacaoTecnica": "Um marcador no código onde a execução deve parar para que você possa inspecionar o estado do programa (debug).",
+    "categoria": "Conceito",
+    "link": "https://developer.chrome.com/docs/devtools/javascript/breakpoints/"
+  },
+  {
+    "termo": "Refactoring",
+    "traducaoLiteral": "Refatoração",
+    "explicacaoTecnica": "O processo de reestruturar o código existente sem alterar seu comportamento externo, para torná-lo mais limpo e eficiente.",
+    "categoria": "Verbo",
+    "link": "https://refactoring.com/"
+  },
+  {
+    "termo": "Wrapper",
+    "traducaoLiteral": "Embrulho / Envoltório",
+    "explicacaoTecnica": "Uma função ou classe que 'embrulha' outra parte do código para adicionar funcionalidade ou simplificar o uso.",
+    "categoria": "Conceito",
+    "link": "https://en.wikipedia.org/wiki/Wrapper_function"
+  },
+  {
+    "termo": "Mock",
+    "traducaoLiteral": "Imitação / Simulação",
+    "explicacaoTecnica": "Objetos simulados que imitam o comportamento de objetos reais de forma controlada, muito usados em testes.",
+    "categoria": "Conceito",
+    "link": "https://en.wikipedia.org/wiki/Mock_object"
+  },
+  {
+    "termo": "Parse",
+    "traducaoLiteral": "Analisar (gramaticalmente)",
+    "explicacaoTecnica": "Analisar uma string de dados (como JSON ou HTML) e convertê-la em uma estrutura que o programa possa usar.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/Parse"
+  },
+  {
+    "termo": "Deprecated",
+    "traducaoLiteral": "Desaprovado / Obsoleto",
+    "explicacaoTecnica": "Recurso que ainda funciona, mas não é mais recomendado e pode ser removido em versões futuras.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/Deprecated"
+  },
+  {
+    "termo": "Boilerplate",
+    "traducaoLiteral": "Chapa de caldeira (Padronizado)",
+    "explicacaoTecnica": "Trechos de código padrão que precisam ser incluídos em muitos lugares com pouca ou nenhuma alteração.",
+    "categoria": "Substantivo",
+    "link": "https://en.wikipedia.org/wiki/Boilerplate_code"
+  },
+  {
+    "termo": "Latency",
+    "traducaoLiteral": "Latência",
+    "explicacaoTecnica": "O tempo que leva para um pacote de dados ir de um ponto a outro. O famoso 'lag'.",
+    "categoria": "Infra",
+    "link": "https://www.cloudflare.com/learning/performance/glossary/what-is-latency/"
+  },
+  {
+    "termo": "Checkout",
+    "traducaoLiteral": "Conferir, Dar baixa",
+    "explicacaoTecnica": "Em sistemas de controle de versão (Git), é o ato de mudar o diretório de trabalho para uma branch (ramo) ou um ponto específico do histórico.",
+    "categoria": "Verbo",
+    "link": "https://git-scm.com/docs/git-checkout"
+  },
+  {
+    "termo": "Squash",
+    "traducaoLiteral": "Esmagar, Amassar",
+    "explicacaoTecnica": "Em Git, é o processo de combinar vários commits menores em um único commit, limpando o histórico de alterações.",
+    "categoria": "Verbo",
+    "link": "https://git-scm.com/docs/git-rebase#_squashing_commits"
+  },
+  {
+    "termo": "Fork",
+    "traducaoLiteral": "Garfo, Bifurcação",
+    "explicacaoTecnica": "Criar uma cópia pessoal de um repositório inteiro de código-fonte, permitindo alterações independentes do projeto original.",
+    "categoria": "Substantivo",
+    "link": "https://docs.github.com/en/get-started/on-your-account/about-forks"
+  },
+  {
+    "termo": "Trunk",
+    "traducaoLiteral": "Tronco (de árvore)",
+    "explicacaoTecnica": "O principal ramo de desenvolvimento em sistemas de controle de versão, onde o código está mais estável e pronto para lançamento (também chamado de 'main' ou 'master').",
+    "categoria": "Substantivo",
+    "link": "https://trunkbaseddevelopment.com/"
+  },
+  {
+    "termo": "Pipeline",
+    "traducaoLiteral": "Duto, Canalização",
+    "explicacaoTecnica": "Em DevOps (CI/CD), é um conjunto automatizado de etapas que transforma código-fonte em um produto de software funcional (construção, teste e entrega).",
+    "categoria": "Infra",
+    "link": "https://www.atlassian.com/continuous-delivery/ci-cd-pipelines/what-is-a-ci-cd-pipeline"
+  },
+  {
+    "termo": "Artifact",
+    "traducaoLiteral": "Artefato",
+    "explicacaoTecnica": "O resultado final (ou intermediário) de um processo de construção, como um arquivo executável, biblioteca ou pacote de instalação.",
+    "categoria": "Substantivo",
+    "link": "https://docs.microsoft.com/en-us/azure/devops/artifacts/"
+  },
+  {
+    "termo": "Rollback",
+    "traducaoLiteral": "Rolar para trás",
+    "explicacaoTecnica": "O processo de retornar um sistema, banco de dados ou código a um estado anterior estável após uma falha ou um deploy problemático.",
+    "categoria": "Verbo",
+    "link": "https://www.atlassian.com/devops/devops-tools/rollback"
+  },
+  {
+    "termo": "Snapshot",
+    "traducaoLiteral": "Fotografia instantânea",
+    "explicacaoTecnica": "Um estado do sistema ou de um conjunto de dados capturado em um momento específico, usado para backup ou restauração.",
+    "categoria": "Substantivo",
+    "link": "https://www.vmware.com/topics/glossary/content/snapshot.html"
+  },
+  {
+    "termo": "Throttle",
+    "traducaoLiteral": "Estrangular, Sufocar, Acelerar (motor)",
+    "explicacaoTecnica": "Controlar a frequência de execução de uma função, garantindo que ela só seja executada, no máximo, uma vez a cada período definido, mesmo que seja chamada repetidamente.",
+    "categoria": "Verbo",
+    "link": "https://css-tricks.com/debouncing-and-throttling-in-javascript/"
+  },
+  {
+    "termo": "Debounce",
+    "traducaoLiteral": "Remover o salto (de um contato mecânico)",
+    "explicacaoTecnica": "Atrasar a execução de uma função até que um certo período de inatividade tenha decorrido. Muito usado para otimizar entradas de busca (search bars).",
+    "categoria": "Verbo",
+    "link": "https://css-tricks.com/debouncing-and-throttling-in-javascript/"
+  },
+  {
+    "termo": "Drift",
+    "traducaoLiteral": "Deriva, Desvio",
+    "explicacaoTecnica": "O desalinhamento entre o estado desejado de uma infraestrutura (declarado em código) e seu estado real após alterações manuais ou não rastreadas (Infrastructure as Code).",
+    "categoria": "Conceito",
+    "link": "https://www.hashicorp.com/blog/what-is-configuration-drift"
+  },
+  {
+    "termo": "Helm",
+    "traducaoLiteral": "Leme, Timão",
+    "explicacaoTecnica": "Um gerenciador de pacotes para Kubernetes que ajuda a definir, instalar e fazer upgrade de aplicações em um cluster complexo.",
+    "categoria": "Infra",
+    "link": "https://helm.sh/"
+  },
+  {
+    "termo": "Pod",
+    "traducaoLiteral": "Vagem, Casulo",
+    "explicacaoTecnica": "Em Kubernetes, a menor unidade implantável, representando um ou mais containers que compartilham recursos de rede e armazenamento.",
+    "categoria": "Infra",
+    "link": "https://kubernetes.io/docs/concepts/workloads/pods/"
+  },
+  {
+    "termo": "Image",
+    "traducaoLiteral": "Imagem",
+    "explicacaoTecnica": "Um pacote binário estático que inclui tudo o que é necessário para executar um software, incluindo código, bibliotecas, variáveis de ambiente e arquivos de configuração (ex: Docker Images).",
+    "categoria": "Infra",
+    "link": "https://docs.docker.com/get-started/overview/#docker-images"
+  },
+  {
+    "termo": "Volume",
+    "traducaoLiteral": "Volume",
+    "explicacaoTecnica": "Uma forma de armazenamento de dados que persiste além do ciclo de vida de um container, permitindo que os dados sejam salvos e compartilhados.",
+    "categoria": "Infra",
+    "link": "https://docs.docker.com/storage/volumes/"
+  },
+  {
+    "termo": "Provision",
+    "traducaoLiteral": "Providenciar, Prover",
+    "explicacaoTecnica": "O ato de configurar e preparar a infraestrutura e recursos necessários para executar uma aplicação.",
+    "categoria": "Verbo",
+    "link": "https://www.redhat.com/en/topics/automation/what-is-provisioning"
+  },
+  {
+    "termo": "Monitor",
+    "traducaoLiteral": "Monitorar, Observar",
+    "explicacaoTecnica": "A prática de coletar e analisar métricas e logs de um sistema em produção para avaliar sua saúde e desempenho.",
+    "categoria": "Verbo",
+    "link": "https://sre.google/sre-book/monitoring-distributed-systems/"
+  },
+  {
+    "termo": "Alert",
+    "traducaoLiteral": "Alerta",
+    "explicacaoTecnica": "Uma notificação gerada automaticamente quando uma métrica monitorada atinge um limite que indica um problema ou comportamento inesperado no sistema.",
+    "categoria": "Substantivo",
+    "link": "https://www.pagerduty.com/resources/learn/monitoring-vs-alerting/"
+  },
+  {
+    "termo": "Canary",
+    "traducaoLiteral": "Canário",
+    "explicacaoTecnica": "Um método de lançamento em que uma nova versão do software é inicialmente liberada para um pequeno subconjunto de usuários (como um 'canário na mina de carvão', testando a segurança antes de um lançamento total).",
+    "categoria": "Substantivo",
+    "link": "https://martinfowler.com/bliki/CanaryRelease.html"
+  },
+  {
+    "termo": "Gateway",
+    "traducaoLiteral": "Portão, Entrada Principal",
+    "explicacaoTecnica": "Um ponto de entrada único para o sistema, gerenciando e roteando requisições externas para os microserviços internos apropriados.",
+    "categoria": "Infra",
+    "link": "https://microservices.io/patterns/apigateway.html"
+  },
+  {
+    "termo": "Proxy",
+    "traducaoLiteral": "Procurador, Representante",
+    "explicacaoTecnica": "Um servidor que atua como intermediário entre o cliente e outro servidor, podendo fornecer segurança, cache ou balanceamento de carga.",
+    "categoria": "Infra",
+    "link": "https://www.cloudflare.com/learning/cdn/what-is-a-proxy-server/"
+  },
+  {
+    "termo": "Tunnel",
+    "traducaoLiteral": "Túnel",
+    "explicacaoTecnica": "Um protocolo de rede que encapsula um protocolo dentro de outro, permitindo a comunicação segura ou privada através de uma rede pública, como VPNs.",
+    "categoria": "Infra",
+    "link": "https://www.ibm.com/topics/network-tunneling"
+  },
+  {
+    "termo": "CORS",
+    "traducaoLiteral": "Compartilhamento de Recurso de Origem Cruzada",
+    "explicacaoTecnica": "Um mecanismo de segurança do navegador que restringe requisições HTTP de um domínio (origem) diferente daquele que serviu o recurso (API).",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS"
+  },
+  {
+    "termo": "Throttling",
+    "traducaoLiteral": "Estrangulamento",
+    "explicacaoTecnica": "A técnica de limitar o número de requisições que um cliente pode fazer a uma API em um determinado período, prevenindo abuso e sobrecarga.",
+    "categoria": "Conceito",
+    "link": "https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-request-throttling.html"
+  },
+  {
+    "termo": "Hashing",
+    "traducaoLiteral": "Picar, Triturar",
+    "explicacaoTecnica": "O processo de transformar dados (como senhas) em uma string de tamanho fixo usando uma função matemática, tornando a inversão praticamente impossível (função unidirecional).",
+    "categoria": "Conceito",
+    "link": "https://www.cloudflare.com/learning/security/what-is-hashing/"
+  },
+  {
+    "termo": "Token",
+    "traducaoLiteral": "Ficha, Sinal",
+    "explicacaoTecnica": "Uma credencial digital que representa a identidade e as permissões de um usuário ou serviço, usada para autenticação e autorização.",
+    "categoria": "Substantivo",
+    "link": "https://jwt.io/introduction"
+  },
+  {
+    "termo": "Secret",
+    "traducaoLiteral": "Segredo",
+    "explicacaoTecnica": "Informações sensíveis (como chaves de API, senhas de banco de dados ou certificados) que devem ser protegidas e não expostas no código-fonte.",
+    "categoria": "Substantivo",
+    "link": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html"
+  },
+  {
+    "termo": "Key",
+    "traducaoLiteral": "Chave",
+    "explicacaoTecnica": "Geralmente, um identificador único, ou em criptografia, um valor usado em conjunto com um algoritmo para criptografar ou descriptografar dados.",
+    "categoria": "Substantivo",
+    "link": "https://www.techopedia.com/definition/3081/cryptographic-key"
+  },
+  {
+    "termo": "Decrypt",
+    "traducaoLiteral": "Descriptografar",
+    "explicacaoTecnica": "O processo de reverter dados criptografados para sua forma original legível usando a chave correta.",
+    "categoria": "Verbo",
+    "link": "https://www.cloudflare.com/learning/ssl/what-is-encryption/"
+  },
+  {
+    "termo": "Encrypt",
+    "traducaoLiteral": "Criptografar",
+    "explicacaoTecnica": "O processo de codificar informações para que apenas partes autorizadas possam acessá-las, garantindo a segurança e privacidade dos dados.",
+    "categoria": "Verbo",
+    "link": "https://www.cloudflare.com/learning/ssl/what-is-encryption/"
+  },
+  {
+    "termo": "Validate",
+    "traducaoLiteral": "Validar, Confirmar",
+    "explicacaoTecnica": "Verificar se os dados de entrada (input) estão corretos, completos e formatados de acordo com as regras de negócio antes de serem processados ou salvos.",
+    "categoria": "Verbo",
+    "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/data-validation"
+  },
+  {
+    "termo": "Serialize",
+    "traducaoLiteral": "Serializar",
+    "explicacaoTecnica": "Converter uma estrutura de dados ou objeto complexo em um formato linear (como JSON, XML ou binário) para que possa ser facilmente armazenado ou transmitido por rede.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Serialization"
+  },
+  {
+    "termo": "Deserialize",
+    "traducaoLiteral": "Desserializar",
+    "explicacaoTecnica": "O processo inverso de Serialização, onde uma sequência de bytes ou string (como JSON) é convertida de volta para um objeto de programação na memória.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Serialization"
+  },
+  {
+    "termo": "Marshalling",
+    "traducaoLiteral": "Organizar, Colocar em ordem",
+    "explicacaoTecnica": "O processo de empacotar parâmetros de função em uma mensagem ou formato padrão para que possam ser enviados entre diferentes processos ou sistemas (similar à serialização, mas focado na comunicação RPC/distribuída).",
+    "categoria": "Conceito",
+    "link": "https://www.oracle.com/java/technologies/javase/rmi-marshalling.html"
+  },
+  {
+    "termo": "Unmarshalling",
+    "traducaoLiteral": "Desorganizar",
+    "explicacaoTecnica": "O processo de desempacotar e reconstruir os parâmetros de função que foram recebidos de uma chamada de rede (o inverso de Marshalling).",
+    "categoria": "Conceito",
+    "link": "https://www.oracle.com/java/technologies/javase/rmi-marshalling.html"
+  },
+  {
+    "termo": "Circuit Breaker",
+    "traducaoLiteral": "Disjuntor",
+    "explicacaoTecnica": "Um padrão de arquitetura que previne que uma falha em um serviço se propague, interrompendo temporariamente as chamadas para aquele serviço e permitindo que ele se recupere.",
+    "categoria": "Conceito",
+    "link": "https://martinfowler.com/bliki/CircuitBreaker.html"
+  },
+  {
+    "termo": "Rate Limiting",
+    "traducaoLiteral": "Limitação de Taxa",
+    "explicacaoTecnica": "Técnica que restringe o número de requisições que um usuário ou sistema pode fazer a um recurso em um período de tempo, geralmente para garantir a justiça no uso dos recursos.",
+    "categoria": "Conceito",
+    "link": "https://docs.microsoft.com/en-us/azure/architecture/patterns/throttling"
+  },
+  {
+    "termo": "Idempotency",
+    "traducaoLiteral": "Idempotência",
+    "explicacaoTecnica": "A propriedade de uma operação que, quando executada múltiplas vezes, produz o mesmo resultado que se tivesse sido executada apenas uma vez (comum em requisições HTTP PUT e DELETE).",
+    "categoria": "Conceito",
+    "link": "https://restfulapi.net/idempotence/"
+  },
+  {
+    "termo": "Spike",
+    "traducaoLiteral": "Pico, Espigão",
+    "explicacaoTecnica": "Um pico repentino e temporário na demanda ou carga de um sistema, ou (em Metodologias Ágeis) um curto período de pesquisa para explorar uma nova tecnologia/solução.",
+    "categoria": "Substantivo",
+    "link": "https://www.scaledagileframework.com/spikes/"
+  },
+  {
+    "termo": "Socket",
+    "traducaoLiteral": "Tomada, Encaixe",
+    "explicacaoTecnica": "Um ponto final bidirecional de comunicação em uma rede, permitindo a troca de dados em tempo real entre programas.",
+    "categoria": "Substantivo",
+    "link": "https://www.ibm.com/docs/aix/6.1/network/sockets.htm"
+  },
+  {
+    "termo": "Stream",
+    "traducaoLiteral": "Fluxo, Correnteza",
+    "explicacaoTecnica": "Uma sequência de dados que flui continuamente, usada para processar grandes volumes de informação sem ter que carregá-los totalmente na memória.",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Streams_API"
+  },
+  {
+    "termo": "Broadcast",
+    "traducaoLiteral": "Transmissão (radiodifusão)",
+    "explicacaoTecnica": "Enviar uma mensagem ou dado para todos os dispositivos conectados na rede de uma só vez (um para todos).",
+    "categoria": "Verbo",
+    "link": "https://www.techtarget.com/searchnetworking/definition/broadcast"
+  },
+  {
+    "termo": "Subscribe",
+    "traducaoLiteral": "Assinar",
+    "explicacaoTecnica": "Registrar-se para receber atualizações ou mensagens de um determinado 'tópico' ou 'publicador' em um sistema de mensagens assíncrono.",
+    "categoria": "Verbo",
+    "link": "https://martinfowler.com/articles/enterpriseIntegrationPatterns.html#PublishSubscribe"
+  },
+  {
+    "termo": "Publish",
+    "traducaoLiteral": "Publicar",
+    "explicacaoTecnica": "Enviar uma mensagem ou evento para um 'tópico', permitindo que todos os 'assinantes' interessados a recebam (Padrão Publish/Subscribe).",
+    "categoria": "Verbo",
+    "link": "https://martinfowler.com/articles/enterpriseIntegrationPatterns.html#PublishSubscribe"
+  },
+  {
+    "termo": "Queue",
+    "traducaoLiteral": "Fila",
+    "explicacaoTecnica": "Uma estrutura de dados que armazena tarefas ou mensagens que devem ser processadas em ordem (First-In, First-Out). Usada para desacoplar serviços.",
+    "categoria": "Substantivo",
+    "link": "https://aws.amazon.com/pt/what-is/message-queue/"
+  },
+  {
+    "termo": "Worker",
+    "traducaoLiteral": "Trabalhador",
+    "explicacaoTecnica": "Um processo ou servidor dedicado a executar tarefas pesadas ou demoradas em segundo plano, geralmente retirando itens de uma fila (Queue).",
+    "categoria": "Substantivo",
+    "link": "https://docs.microsoft.com/en-us/azure/architecture/patterns/worker-role-with-external-queue"
+  },
+  {
+    "termo": "Handler",
+    "traducaoLiteral": "Manipulador, Gerenciador",
+    "explicacaoTecnica": "Uma função ou método de código que é responsável por processar um evento, requisição, ou exceção específica.",
+    "categoria": "Substantivo",
+    "link": "https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html"
+  },
+  {
+    "termo": "Route",
+    "traducaoLiteral": "Rota",
+    "explicacaoTecnica": "Define como o sistema deve responder a uma requisição HTTP para um determinado URI e qual código (função) deve ser executado.",
+    "categoria": "Substantivo",
+    "link": "https://expressjs.com/en/guide/routing.html"
+  },
+  {
+    "termo": "Session",
+    "traducaoLiteral": "Sessão",
+    "explicacaoTecnica": "Um período de tempo em que um usuário está ativo em um sistema ou aplicação. O servidor armazena dados de estado relacionados a essa interação.",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Session"
+  },
+  {
+    "termo": "Viewport",
+    "traducaoLiteral": "Porta de visão, Janela de visualização",
+    "explicacaoTecnica": "A área visível da página web para o usuário, que varia dependendo do dispositivo (monitor, tablet ou celular). Essencial para design responsivo.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Viewport"
+  },
+  {
+    "termo": "Prop",
+    "traducaoLiteral": "Propriedade (abreviado)",
+    "explicacaoTecnica": "Em frameworks de Front-end (como React), são dados passados de um componente pai para um componente filho, tornando o fluxo de dados previsível.",
+    "categoria": "Front-end",
+    "link": "https://react.dev/learn/passing-props-to-a-component"
+  },
+  {
+    "termo": "State",
+    "traducaoLiteral": "Estado",
+    "explicacaoTecnica": "Os dados internos e mutáveis de um componente que definem o que deve ser exibido na interface em um determinado momento.",
+    "categoria": "Front-end",
+    "link": "https://react.dev/learn/state-a-components-memory"
+  },
+  {
+    "termo": "Lifecycle",
+    "traducaoLiteral": "Ciclo de vida",
+    "explicacaoTecnica": "Os estágios pelos quais um componente de software passa, desde sua criação (montagem) até sua destruição (desmontagem).",
+    "categoria": "Front-end",
+    "link": "https://legacy.reactjs.org/docs/state-and-lifecycle.html"
+  },
+  {
+    "termo": "Mount",
+    "traducaoLiteral": "Montar, Instalar",
+    "explicacaoTecnica": "O processo de inserir um componente de UI ou uma aplicação inteira no Document Object Model (DOM) inicial da página.",
+    "categoria": "Verbo",
+    "link": "https://react.dev/reference/react-dom/client/createRoot#root-mounts-your-component"
+  },
+  {
+    "termo": "Unmount",
+    "traducaoLiteral": "Desmontar, Desinstalar",
+    "explicacaoTecnica": "O processo de remover um componente do DOM e limpar quaisquer recursos associados a ele, como listeners de eventos.",
+    "categoria": "Verbo",
+    "link": "https://legacy.reactjs.org/docs/react-component.html#componentwillunmount"
+  },
+  {
+    "termo": "Shallow",
+    "traducaoLiteral": "Raso, Superficial",
+    "explicacaoTecnica": "Em testes ou cópias, refere-se a algo que inspeciona ou copia apenas o nível mais alto de uma estrutura de dados, sem entrar em objetos aninhados.",
+    "categoria": "Conceito",
+    "link": "https://enzymejs.github.io/enzyme/docs/api/shallow.html"
+  },
+  {
+    "termo": "Deep",
+    "traducaoLiteral": "Profundo",
+    "explicacaoTecnica": "Em testes ou cópias, refere-se a algo que inspeciona ou copia todos os níveis de uma estrutura de dados, incluindo todos os objetos aninhados (recursivamente).",
+    "categoria": "Conceito",
+    "link": "https://lodash.com/docs/4.17.15#cloneDeep"
+  },
+  {
+    "termo": "Hydrate",
+    "traducaoLiteral": "Hidratar",
+    "explicacaoTecnica": "No Server-Side Rendering (SSR), é o processo de anexar o código JavaScript da aplicação a um HTML pré-renderizado, transformando-o em uma aplicação interativa de Front-end.",
+    "categoria": "Verbo",
+    "link": "https://nextjs.org/docs/advanced-features/server-components"
+  },
+  {
+    "termo": "Dehydrate",
+    "traducaoLiteral": "Desidratar",
+    "explicacaoTecnica": "O processo de pegar dados de estado da aplicação (geralmente no servidor) e empacotá-los para serem enviados ao cliente, permitindo a hidratação posterior.",
+    "categoria": "Verbo",
+    "link": "https://redux.js.org/usage/server-rendering"
+  },
+  {
+    "termo": "Sibling",
+    "traducaoLiteral": "Irmão(ã)",
+    "explicacaoTecnica": "Elementos do DOM ou componentes que estão no mesmo nível da hierarquia, ou seja, compartilham o mesmo componente/elemento pai imediato.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/nextElementSibling"
+  },
+  {
+    "termo": "Parent",
+    "traducaoLiteral": "Pai/Mãe",
+    "explicacaoTecnica": "Um elemento ou componente que contém outros elementos ou componentes (filhos) na estrutura hierárquica.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Node/parentNode"
+  },
+  {
+    "termo": "Child",
+    "traducaoLiteral": "Filho(a)",
+    "explicacaoTecnica": "Um elemento ou componente que está contido dentro de outro elemento ou componente (pai) na estrutura hierárquica.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Node/childNodes"
+  },
+  {
+    "termo": "Layout",
+    "traducaoLiteral": "Desenho, Planta",
+    "explicacaoTecnica": "A organização e disposição visual dos elementos em uma página ou interface de usuário, frequentemente controlada por CSS Grid ou Flexbox.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/Layout"
+  },
+  {
+    "termo": "Grid",
+    "traducaoLiteral": "Grade, Grelha",
+    "explicacaoTecnica": "Um sistema de layout bidimensional (linhas e colunas) em CSS, usado para organizar o conteúdo de forma responsiva.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout"
+  },
+  {
+    "termo": "Flex",
+    "traducaoLiteral": "Flexível",
+    "explicacaoTecnica": "Um sistema de layout unidimensional (linha ou coluna) em CSS, ideal para distribuir o espaço entre itens em um único eixo.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout"
+  },
+  {
+    "termo": "Margin",
+    "traducaoLiteral": "Margem",
+    "explicacaoTecnica": "O espaço invisível ao redor da borda externa de um elemento, usado para criar distância entre elementos adjacentes.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin"
+  },
+  {
+    "termo": "Padding",
+    "traducaoLiteral": "Preenchimento, Acolchoamento",
+    "explicacaoTecnica": "O espaço interno entre o conteúdo de um elemento e sua borda. Adiciona 'respiro' ao redor do conteúdo.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/padding"
+  },
+  {
+    "termo": "Z-index",
+    "traducaoLiteral": "Índice Z",
+    "explicacaoTecnica": "Uma propriedade CSS que determina a ordem de empilhamento de elementos que se sobrepõem no eixo Z (profundidade).",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/z-index"
+  },
+  {
+    "termo": "Gutter",
+    "traducaoLiteral": "Calha, Sarjeta",
+    "explicacaoTecnica": "O espaço negativo ou a distância entre colunas em um sistema de layout (grid), usado para separação visual.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/Gutter"
+  },
+  {
+    "termo": "Caret",
+    "traducaoLiteral": "Sinal gráfico (^), Acento circunflexo",
+    "explicacaoTecnica": "O indicador visual (geralmente uma linha piscante) que mostra a posição atual de inserção de texto em um campo de formulário ou área editável.",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/caret-color"
+  },
+  {
+    "termo": "Scroll",
+    "traducaoLiteral": "Rolar, Deslizar",
+    "explicacaoTecnica": "O movimento de mover o conteúdo da tela para cima, para baixo ou lateralmente, permitindo visualizar o que está fora do viewport.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Window/scroll"
+  },
+  {
+    "termo": "Flicker",
+    "traducaoLiteral": "Cintilar, Piscar",
+    "explicacaoTecnica": "Um artefato visual desagradável onde o conteúdo da tela pisca brevemente, geralmente devido a problemas de carregamento de CSS ou renderização de JS.",
+    "categoria": "Substantivo",
+    "link": "https://web.dev/articles/avoid-fouc-and-flicker-on-initial-page-load"
+  },
+  {
+    "termo": "Jank",
+    "traducaoLiteral": "Barulho, Estalido (gíria)",
+    "explicacaoTecnica": "Um termo usado para descrever a interface de usuário que não responde suavemente, resultando em animações travadas ou lentas, geralmente devido a tarefas de JS bloqueando o thread principal.",
+    "categoria": "Substantivo",
+    "link": "https://developers.google.com/web/fundamentals/performance/rendering/jank"
+  },
+  {
+    "termo": "Caption",
+    "traducaoLiteral": "Legenda, Título",
+    "explicacaoTecnica": "Um texto curto que descreve ou fornece contexto para uma imagem, tabela ou outro elemento visual.",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/caption"
+  },
+  {
+    "termo": "Modal",
+    "traducaoLiteral": "Modal",
+    "explicacaoTecnica": "Uma janela de diálogo ou pop-up que força o usuário a interagir com ela antes de poder retornar à aplicação principal (bloqueia o conteúdo de fundo).",
+    "categoria": "Front-end",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/dialog_role"
+  },
+  {
+    "termo": "Toast",
+    "traducaoLiteral": "Torrada",
+    "explicacaoTecnica": "Uma pequena e temporária caixa de notificação que aparece na tela para fornecer feedback rápido ao usuário, desaparecendo automaticamente.",
+    "categoria": "Front-end",
+    "link": "https://material.io/components/snackbars#usage"
+  },
+  {
+    "termo": "Skeleton",
+    "traducaoLiteral": "Esqueleto",
+    "explicacaoTecnica": "Uma versão simplificada da interface que é exibida enquanto o conteúdo real está sendo carregado, melhorando a percepção de performance do usuário.",
+    "categoria": "Front-end",
+    "link": "https://web.dev/articles/skeleton-screens"
+  },
+  {
+    "termo": "Draggable",
+    "traducaoLiteral": "Arrastável",
+    "explicacaoTecnica": "Um elemento da interface que pode ser movido pelo usuário ao clicar e arrastar com o mouse ou toque.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/HTML_Drag_and_Drop_API"
+  },
+  {
+    "termo": "Droppable",
+    "traducaoLiteral": "Soltável",
+    "explicacaoTecnica": "Uma área da interface que está configurada para aceitar e processar um elemento 'draggable' solto nela.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/HTML_Drag_and_Drop_API"
+  },
+  {
+    "termo": "Mousedown",
+    "traducaoLiteral": "Mouse para baixo",
+    "explicacaoTecnica": "Um evento de JavaScript que dispara quando o botão do mouse é pressionado sobre um elemento.",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/mousedown_event"
+  },
+  {
+    "termo": "Keyup",
+    "traducaoLiteral": "Tecla para cima",
+    "explicacaoTecnica": "Um evento de JavaScript que dispara quando uma tecla do teclado é liberada (deixada de ser pressionada).",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/keyup_event"
+  },
+  {
+    "termo": "Focus",
+    "traducaoLiteral": "Foco",
+    "explicacaoTecnica": "O estado de um elemento da interface (como um campo de formulário) que está pronto para receber entrada do usuário (teclado).",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/focus"
+  },
+  {
+    "termo": "Blur",
+    "traducaoLiteral": "Borrão, Desfocar",
+    "explicacaoTecnica": "O ato de tirar o foco de um elemento da interface, geralmente disparando um evento quando o usuário sai de um campo de formulário.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/Element/blur_event"
+  },
+  {
+    "termo": "Toggle",
+    "traducaoLiteral": "Alternar, Ligar/Desligar",
+    "explicacaoTecnica": "Uma ação que inverte o estado de algo, como abrir ou fechar um menu, ou mudar uma variável booleana de 'true' para 'false'.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle"
+  },
+  {
+    "termo": "Transition",
+    "traducaoLiteral": "Transição",
+    "explicacaoTecnica": "Uma propriedade CSS que permite que as mudanças de estado de um elemento (ex: de cor ou tamanho) ocorram suavemente ao longo do tempo, em vez de instantaneamente.",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions"
+  },
+  {
+    "termo": "Transform",
+    "traducaoLiteral": "Transformar",
+    "explicacaoTecnica": "Uma propriedade CSS que aplica transformações geométricas a um elemento, como rotação, escala, inclinação ou translação no espaço 2D ou 3D.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform"
+  },
+  {
+    "termo": "Offset",
+    "traducaoLiteral": "Deslocamento, Desvio",
+    "explicacaoTecnica": "A distância de um elemento em relação a outro ponto (como a borda da tela ou de um elemento pai), usado para posicionamento e cálculo de scroll.",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLElement/offsetTop"
+  },
+  {
+    "termo": "Schema",
+    "traducaoLiteral": "Esquema, Diagrama",
+    "explicacaoTecnica": "A definição formal da estrutura de um banco de dados, incluindo tabelas, campos, tipos de dados e relacionamentos.",
+    "categoria": "Banco de Dados",
+    "link": "https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/schema.html"
+  },
+  {
+    "termo": "View",
+    "traducaoLiteral": "Visão",
+    "explicacaoTecnica": "Uma tabela virtual cujo conteúdo é definido por uma consulta (query) SQL. Não armazena dados físicos, mas sim a consulta que os recupera.",
+    "categoria": "Banco de Dados",
+    "link": "https://www.postgresql.org/docs/current/tutorial-views.html"
+  },
+  {
+    "termo": "Trigger",
+    "traducaoLiteral": "Gatilho, Acionador",
+    "explicacaoTecnica": "Um bloco de código SQL que é automaticamente executado em resposta a um evento específico (INSERT, UPDATE ou DELETE) em uma tabela do banco de dados.",
+    "categoria": "Banco de Dados",
+    "link": "https://docs.microsoft.com/en-us/sql/relational-databases/triggers/triggers"
+  },
+  {
+    "termo": "Cursor",
+    "traducaoLiteral": "Cursor",
+    "explicacaoTecnica": "Um mecanismo de controle que permite a travessia (iteração) sobre o conjunto de resultados de uma consulta, linha por linha, em linguagens procedurais de banco de dados (PL/SQL).",
+    "categoria": "Banco de Dados",
+    "link": "https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/cursor_attributes.htm"
+  },
+  {
+    "termo": "Transaction",
+    "traducaoLiteral": "Transação",
+    "explicacaoTecnica": "Uma sequência de operações de banco de dados que é tratada como uma única unidade de trabalho: ou todas as operações são concluídas (Commit) ou nenhuma delas (Rollback).",
+    "categoria": "Banco de Dados",
+    "link": "https://www.ibm.com/topics/database-transactions"
+  },
+  {
+    "termo": "Isolation",
+    "traducaoLiteral": "Isolamento",
+    "explicacaoTecnica": "Uma das propriedades ACID, garantindo que transações simultâneas não interfiram umas nas outras, mantendo a consistência dos dados.",
+    "categoria": "Banco de Dados",
+    "link": "https://www.postgresql.org/docs/current/transaction-iso.html"
+  },
+  {
+    "termo": "Denormalize",
+    "traducaoLiteral": "Desnormalizar",
+    "explicacaoTecnica": "O processo de introduzir redundância de dados em um banco de dados, intencionalmente, para melhorar a performance de leitura, em contraste com o modelo normalizado.",
+    "categoria": "Verbo",
+    "link": "https://docs.microsoft.com/en-us/azure/architecture/data-guide/relational-data/denormalization"
+  },
+  {
+    "termo": "Sharding",
+    "traducaoLiteral": "Estilhaçamento, Fragmentação",
+    "explicacaoTecnica": "Uma técnica de particionamento horizontal que divide um banco de dados muito grande em bancos de dados menores e mais gerenciáveis, distribuídos por múltiplos servidores.",
+    "categoria": "Conceito",
+    "link": "https://www.mongodb.com/basics/sharding"
+  },
+  {
+    "termo": "Replication",
+    "traducaoLiteral": "Replicação",
+    "explicacaoTecnica": "O processo de copiar dados de um servidor de banco de dados principal para um ou mais servidores secundários para fins de redundância, tolerância a falhas e leitura de carga.",
+    "categoria": "Conceito",
+    "link": "https://www.mysql.com/products/cluster/replication.html"
+  },
+  {
+    "termo": "Journaling",
+    "traducaoLiteral": "Diário, Registro",
+    "explicacaoTecnica": "Um mecanismo usado por sistemas de arquivos e bancos de dados para registrar transações antes de serem realmente aplicadas, garantindo a recuperação em caso de falha.",
+    "categoria": "Conceito",
+    "link": "https://www.ibm.com/docs/aix/7.1/journaling-file-systems"
+  },
+  {
+    "termo": "Lock",
+    "traducaoLiteral": "Bloqueio, Cadeado",
+    "explicacaoTecnica": "Um mecanismo usado para controlar o acesso simultâneo a um dado, impedindo que múltiplas transações o modifiquem simultaneamente e garantindo a integridade.",
+    "categoria": "Substantivo",
+    "link": "https://docs.microsoft.com/en-us/sql/relational-databases/sql-server-transaction-locking-and-row-versioning-guide"
+  },
+  {
+    "termo": "Deadlock",
+    "traducaoLiteral": "Bloqueio fatal, Impasse",
+    "explicacaoTecnica": "Uma situação em que duas ou mais transações estão esperando indefinidamente uma pela outra para liberar um recurso (lock), resultando em um impasse.",
+    "categoria": "Banco de Dados",
+    "link": "https://www.ibm.com/docs/db2/11.5?topic=concepts-deadlocks"
+  },
+  {
+    "termo": "Tuple",
+    "traducaoLiteral": "Tupla (Conjunto ordenado de elementos)",
+    "explicacaoTecnica": "Em bancos de dados relacionais, um sinônimo para uma linha ou registro em uma tabela.",
+    "categoria": "Banco de Dados",
+    "link": "https://docs.oracle.com/cd/B19306_01/server.102/b14200/ap_key_concepts.htm#CBBGCEJE"
+  },
+  {
+    "termo": "Constraint",
+    "traducaoLiteral": "Restrição, Limitação",
+    "explicacaoTecnica": "Uma regra imposta a colunas ou tabelas para limitar o tipo de dados que pode ser inserido, garantindo a precisão e integridade dos dados (ex: NOT NULL, UNIQUE, FOREIGN KEY).",
+    "categoria": "Banco de Dados",
+    "link": "https://www.w3schools.com/sql/sql_constraints.asp"
+  },
+  {
+    "termo": "Cardinality",
+    "traducaoLiteral": "Cardinalidade",
+    "explicacaoTecnica": "O número de valores distintos (únicos) em uma coluna de banco de dados, importante para otimização de consultas e seleção de índices.",
+    "categoria": "Banco de Dados",
+    "link": "https://docs.microsoft.com/en-us/sql/relational-databases/indexes/column-store-indexes-design-guidance"
+  },
+  {
+    "termo": "Projection",
+    "traducaoLiteral": "Projeção",
+    "explicacaoTecnica": "O termo em álgebra relacional que descreve a operação de selecionar quais colunas (atributos) de uma tabela devem ser incluídas no conjunto de resultados (SELECT * é uma projeção de todas as colunas).",
+    "categoria": "Conceito",
+    "link": "https://www.w3schools.com/sql/sql_project.asp"
+  },
+  {
+    "termo": "Aggregate",
+    "traducaoLiteral": "Agregar, Reunir",
+    "explicacaoTecnica": "Uma função SQL (como SUM, AVG, COUNT, MIN, MAX) que executa um cálculo em várias linhas e retorna um único valor de resumo.",
+    "categoria": "Verbo",
+    "link": "https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions001.htm"
+  },
+  {
+    "termo": "Upsert",
+    "traducaoLiteral": "Atualizar/Inserir (Update/Insert)",
+    "explicacaoTecnica": "Uma operação única que insere um novo registro se ele não existir, ou atualiza um registro existente se ele for encontrado (mesclando as ações UPDATE e INSERT).",
+    "categoria": "Verbo",
+    "link": "https://www.postgresql.org/docs/current/sql-insert.html#SQL-ON-CONFLICT"
+  },
+  {
+    "termo": "Partition",
+    "traducaoLiteral": "Partição, Divisão",
+    "explicacaoTecnica": "O ato de dividir uma tabela de banco de dados logicamente grande em partes menores e fisicamente separadas, melhorando a performance e manutenção.",
+    "categoria": "Banco de Dados",
+    "link": "https://docs.oracle.com/en/database/oracle/oracle-database/19/vlrmu/partitioning.html"
+  },
+  {
+    "termo": "Vacuum",
+    "traducaoLiteral": "Aspirador de pó, Vácuo",
+    "explicacaoTecnica": "Em PostgreSQL, um comando de manutenção que recupera o espaço de armazenamento ocupado por linhas excluídas ou obsoletas, limpando o banco de dados.",
+    "categoria": "Verbo",
+    "link": "https://www.postgresql.org/docs/current/sql-vacuum.html"
+  },
+  {
+    "termo": "Handshake",
+    "traducaoLiteral": "Aperto de mão",
+    "explicacaoTecnica": "Uma série de passos de comunicação usados para estabelecer uma conexão segura ou não, como o processo de negociação de parâmetros em uma conexão TCP ou TLS.",
+    "categoria": "Infra",
+    "link": "https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/"
+  },
+  {
+    "termo": "Protocol",
+    "traducaoLiteral": "Protocolo",
+    "explicacaoTecnica": "Um conjunto de regras e convenções que governam como os dados são formatados, transmitidos e recebidos por sistemas de comunicação (ex: HTTP, TCP, IP).",
+    "categoria": "Infra",
+    "link": "https://www.techopedia.com/definition/3951/protocol"
+  },
+  {
+    "termo": "Port",
+    "traducaoLiteral": "Porta",
+    "explicacaoTecnica": "Um número que identifica uma aplicação ou serviço específico rodando em um servidor de rede (ex: porta 80 para HTTP, porta 443 para HTTPS).",
+    "categoria": "Infra",
+    "link": "https://www.cloudflare.com/learning/network-layer/what-is-a-port/"
+  },
+  {
+    "termo": "Subnet",
+    "traducaoLiteral": "Sub-rede",
+    "explicacaoTecnica": "Uma divisão lógica de uma rede IP maior, permitindo que as organizações gerenciem e segmentem o tráfego de rede de forma mais eficiente.",
+    "categoria": "Infra",
+    "link": "https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html"
+  },
+  {
+    "termo": "Mask",
+    "traducaoLiteral": "Máscara",
+    "explicacaoTecnica": "Em redes (Subnet Mask), um número usado para distinguir a parte da rede de um endereço IP da parte do host (dispositivo).",
+    "categoria": "Infra",
+    "link": "https://www.cloudflare.com/learning/network-layer/what-is-a-subnet-mask/"
+  },
+  {
+    "termo": "Firewall",
+    "traducaoLiteral": "Muro de fogo, Parede corta-fogo",
+    "explicacaoTecnica": "Um sistema de segurança de rede que monitora e controla o tráfego de entrada e saída com base em regras de segurança predeterminadas.",
+    "categoria": "Infra",
+    "link": "https://www.cloudflare.com/learning/security/what-is-a-firewall/"
+  },
+  {
+    "termo": "Cipher",
+    "traducaoLiteral": "Cifra, Código Secreto",
+    "explicacaoTecnica": "Um algoritmo usado para criptografar e descriptografar dados. É o método matemático em si (ex: AES, RSA).",
+    "categoria": "Substantivo",
+    "link": "https://www.ibm.com/topics/cryptography"
+  },
+  {
+    "termo": "Hash",
+    "traducaoLiteral": "Mistura, Picadinho",
+    "explicacaoTecnica": "O valor de saída de uma função de hashing. É usado para verificar a integridade de dados ou para armazenar senhas de forma segura.",
+    "categoria": "Substantivo",
+    "link": "https://www.cloudflare.com/learning/security/what-is-hashing/"
+  },
+  {
+    "termo": "Salt",
+    "traducaoLiteral": "Sal",
+    "explicacaoTecnica": "Um valor aleatório e único que é adicionado a uma senha antes de ser 'hasheada', prevenindo ataques de dicionário e tabelas arco-íris (Rainbow Tables).",
+    "categoria": "Substantivo",
+    "link": "https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html#salting"
+  },
+  {
+    "termo": "Certificate",
+    "traducaoLiteral": "Certificado",
+    "explicacaoTecnica": "Um arquivo digital que autentica a identidade de um site e permite uma conexão criptografada (SSL/TLS).",
+    "categoria": "Infra",
+    "link": "https://www.digicert.com/what-is-an-ssl-certificate"
+  },
+  {
+    "termo": "Secure",
+    "traducaoLiteral": "Seguro",
+    "explicacaoTecnica": "Referente a sistemas ou protocolos que utilizam criptografia e mecanismos de autenticação para proteger dados contra acesso não autorizado.",
+    "categoria": "Conceito",
+    "link": "https://www.techtarget.com/searchsecurity/definition/information-security"
+  },
+  {
+    "termo": "Reverse",
+    "traducaoLiteral": "Reverso, Inverso",
+    "explicacaoTecnica": "Em arquitetura de rede (Reverse Proxy), um servidor que fica na frente dos servidores web e encaminha as requisições de clientes para eles.",
+    "categoria": "Conceito",
+    "link": "https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/"
+  },
+  {
+    "termo": "Forward",
+    "traducaoLiteral": "Adiante, Para frente",
+    "explicacaoTecnica": "Em arquitetura de rede (Forward Proxy), um servidor que atua como intermediário para o cliente, roteando as requisições para a Internet.",
+    "categoria": "Conceito",
+    "link": "https://www.cloudflare.com/learning/cdn/glossary/forward-proxy/"
+  },
+  {
+    "termo": "Ping",
+    "traducaoLiteral": "Sinal (sônico ou radar)",
+    "explicacaoTecnica": "Um utilitário de rede que envia pacotes de teste para um endereço IP de destino para medir o tempo que leva para receber uma resposta (latência) e verificar a conectividade.",
+    "categoria": "Verbo",
+    "link": "https://www.techtarget.com/searchnetworking/definition/ping"
+  },
+  {
+    "termo": "Trace",
+    "traducaoLiteral": "Rastrear, Traçar",
+    "explicacaoTecnica": "Utilizado em 'traceroute' (ou tracert), é um comando para visualizar o caminho completo (todos os 'hops') que um pacote de dados percorre até chegar ao destino.",
+    "categoria": "Verbo",
+    "link": "https://www.cloudflare.com/learning/network-layer/what-is-traceroute/"
+  },
+  {
+    "termo": "Hop",
+    "traducaoLiteral": "Salto, Pulo",
+    "explicacaoTecnica": "Cada ponto intermediário (roteador) que um pacote de dados atravessa entre a origem e o destino na internet.",
+    "categoria": "Substantivo",
+    "link": "https://www.cloudflare.com/learning/network-layer/what-is-traceroute/"
+  },
+  {
+    "termo": "Jitter",
+    "traducaoLiteral": "Instabilidade, Tremor",
+    "explicacaoTecnica": "A variação na latência de pacotes ao longo do tempo. É indesejável em comunicações em tempo real como VoIP ou streaming de vídeo.",
+    "categoria": "Substantivo",
+    "link": "https://www.cisco.com/c/en/us/support/docs/voice/voice-quality/26965-jitter.html"
+  },
+  {
+    "termo": "Sniffer",
+    "traducaoLiteral": "Farejador, Aspirador",
+    "explicacaoTecnica": "Um programa ou dispositivo que intercepta e registra o tráfego de dados que passa por uma rede, usado para monitoramento ou análise de segurança.",
+    "categoria": "Substantivo",
+    "link": "https://www.techopedia.com/definition/26456/protocol-analyzer"
+  },
+  {
+    "termo": "Spoofing",
+    "traducaoLiteral": "Falsificação, Enganação",
+    "explicacaoTecnica": "Um ataque onde um invasor falsifica dados de identificação (como endereços IP ou e-mail) para se passar por outra entidade confiável.",
+    "categoria": "Conceito",
+    "link": "https://www.cloudflare.com/learning/security/glossary/spoofing/"
+  },
+  {
+    "termo": "Phishing",
+    "traducaoLiteral": "Pescar (adaptado de fishing)",
+    "explicacaoTecnica": "Uma técnica de ataque cibernético que usa comunicações fraudulentas (geralmente e-mail) para induzir indivíduos a fornecerem informações confidenciais.",
+    "categoria": "Conceito",
+    "link": "https://www.cloudflare.com/learning/security/threats/what-is-phishing/"
+  },
+  {
+    "termo": "Singleton",
+    "traducaoLiteral": "Singular, Único",
+    "explicacaoTecnica": "Um padrão de design que restringe a instanciação de uma classe a apenas um objeto, fornecendo um ponto de acesso global a essa instância.",
+    "categoria": "Conceito",
+    "link": "https://refactoring.guru/design-patterns/singleton"
+  },
+  {
+    "termo": "Factory",
+    "traducaoLiteral": "Fábrica",
+    "explicacaoTecnica": "Um padrão de design que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objeto que será criado.",
+    "categoria": "Conceito",
+    "link": "https://refactoring.guru/design-patterns/factory-method"
+  },
+  {
+    "termo": "Adapter",
+    "traducaoLiteral": "Adaptador",
+    "explicacaoTecnica": "Um padrão de design estrutural que permite que interfaces incompatíveis trabalhem juntas, convertendo a interface de uma classe para outra esperada pelo cliente.",
+    "categoria": "Conceito",
+    "link": "https://refactoring.guru/design-patterns/adapter"
+  },
+  {
+    "termo": "Decorator",
+    "traducaoLiteral": "Decorador, Enfeite",
+    "explicacaoTecnica": "Um padrão de design que permite adicionar novas funcionalidades a um objeto existente dinamicamente, envolvendo-o (decorando-o) com classes de invólucro (wrappers).",
+    "categoria": "Conceito",
+    "link": "https://refactoring.guru/design-patterns/decorator"
+  },
+  {
+    "termo": "Facade",
+    "traducaoLiteral": "Fachada",
+    "explicacaoTecnica": "Um padrão de design estrutural que fornece uma interface simplificada para um sistema complexo de classes, bibliotecas ou subsistemas.",
+    "categoria": "Conceito",
+    "link": "https://refactoring.guru/design-patterns/facade"
+  },
+  {
+    "termo": "Strategy",
+    "traducaoLiteral": "Estratégia",
+    "explicacaoTecnica": "Um padrão de design comportamental que permite definir uma família de algoritmos, encapsular cada um deles e torná-los intercambiáveis.",
+    "categoria": "Conceito",
+    "link": "https://refactoring.guru/design-patterns/strategy"
+  },
+  {
+    "termo": "Observer",
+    "traducaoLiteral": "Observador",
+    "explicacaoTecnica": "Um padrão de design onde um objeto ('Subject') notifica automaticamente uma lista de dependentes ('Observers') quando seu estado muda (Padrão Pub/Sub).",
+    "categoria": "Conceito",
+    "link": "https://refactoring.guru/design-patterns/observer"
+  },
+  {
+    "termo": "Chain",
+    "traducaoLiteral": "Corrente, Cadeia",
+    "explicacaoTecnica": "Em 'Chain of Responsibility', um padrão que permite passar requisições sequencialmente através de uma cadeia de manipuladores, até que um deles a trate.",
+    "categoria": "Conceito",
+    "link": "https://refactoring.guru/design-patterns/chain-of-responsibility"
+  },
+  {
+    "termo": "ViewModel",
+    "traducaoLiteral": "Modelo de Visão",
+    "explicacaoTecnica": "Um componente que atua como intermediário entre a View (interface do usuário) e o Model (dados/lógica de negócio), preparando os dados para exibição (MVVM).",
+    "categoria": "Conceito",
+    "link": "https://docs.microsoft.com/en-us/dotnet/architecture/maui/mvvm"
+  },
+  {
+    "termo": "Repository",
+    "traducaoLiteral": "Repositório",
+    "explicacaoTecnica": "Um padrão de design que encapsula a lógica necessária para acessar fontes de dados, agindo como uma coleção de objetos persistentes em memória.",
+    "categoria": "Conceito",
+    "link": "https://martinfowler.com/eaaCatalog/repository.html"
+  },
+  {
+    "termo": "Domain",
+    "traducaoLiteral": "Domínio, Área de Atuação",
+    "explicacaoTecnica": "Em Domain-Driven Design (DDD), a área de conhecimento e atividade de negócio sobre a qual a aplicação está sendo construída.",
+    "categoria": "Conceito",
+    "link": "https://martinfowler.com/bliki/DomainDrivenDesign.html"
+  },
+  {
+    "termo": "Aggregate",
+    "traducaoLiteral": "Agregado",
+    "explicacaoTecnica": "Em DDD, um agrupamento de objetos do domínio que deve ser tratado como uma única unidade para fins de mudanças e transações (tem uma Root Entity).",
+    "categoria": "Substantivo",
+    "link": "https://martinfowler.com/bliki/DDD_Aggregate.html"
+  },
+  {
+    "termo": "Entity",
+    "traducaoLiteral": "Entidade",
+    "explicacaoTecnica": "Um objeto de domínio que é definido por sua identidade (ID único) e não por seus atributos, permanecendo o mesmo ao longo do tempo.",
+    "categoria": "Substantivo",
+    "link": "https://martinfowler.com/bliki/ValueObject.html"
+  },
+  {
+    "termo": "Value Object",
+    "traducaoLiteral": "Objeto de Valor",
+    "explicacaoTecnica": "Um objeto de domínio que é definido por seus atributos (valores), e não por uma identidade única. Se dois Value Objects têm os mesmos atributos, eles são considerados iguais.",
+    "categoria": "Conceito",
+    "link": "https://martinfowler.com/bliki/ValueObject.html"
+  },
+  {
+    "termo": "Inversion",
+    "traducaoLiteral": "Inversão",
+    "explicacaoTecnica": "O princípio de Inversão de Dependência (DIP), onde módulos de alto nível não devem depender de módulos de baixo nível, mas sim de abstrações (interfaces).",
+    "categoria": "Conceito",
+    "link": "https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"
+  },
+  {
+    "termo": "Dependency",
+    "traducaoLiteral": "Dependência",
+    "explicacaoTecnica": "Uma relação onde um módulo de código (classe ou função) precisa de outro módulo para funcionar corretamente.",
+    "categoria": "Substantivo",
+    "link": "https://martinfowler.com/articles/injection.html"
+  },
+  {
+    "termo": "Coupling",
+    "traducaoLiteral": "Acoplamento, União",
+    "explicacaoTecnica": "A medida de quão fortemente dois módulos de software estão conectados. O baixo acoplamento é preferido em um bom design de software.",
+    "categoria": "Conceito",
+    "link": "https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/high-cohesion-low-coupling"
+  },
+  {
+    "termo": "Cohesion",
+    "traducaoLiteral": "Coesão",
+    "explicacaoTecnica": "A medida de quão fortemente relacionadas e focadas estão as responsabilidades de um único módulo. Alta coesão é preferida (um módulo faz uma coisa bem).",
+    "categoria": "Conceito",
+    "link": "https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/high-cohesion-low-coupling"
+  },
+  {
+    "termo": "Boot",
+    "traducaoLiteral": "Bota, Ligar",
+    "explicacaoTecnica": "Abreviatura de 'bootstrap', é o processo de inicialização de um sistema operacional ou aplicação, carregando o código inicial e as configurações.",
+    "categoria": "Verbo",
+    "link": "https://www.techopedia.com/definition/3953/booting"
+  },
+  {
+    "termo": "Runtime",
+    "traducaoLiteral": "Tempo de execução",
+    "explicacaoTecnica": "O período em que um programa está sendo executado no computador, em contraste com o tempo de compilação ou desenvolvimento.",
+    "categoria": "Substantivo",
+    "link": "https://www.techtarget.com/searchmicroservices/definition/runtime"
+  },
+  {
+    "termo": "Halt",
+    "traducaoLiteral": "Parar, Interromper",
+    "explicacaoTecnica": "Um comando ou estado que interrompe a execução de um programa ou sistema, geralmente de forma imediata e controlada.",
+    "categoria": "Verbo",
+    "link": "https://linux.die.net/man/8/halt"
+  },
+  {
+    "termo": "Evict",
+    "traducaoLiteral": "Despejar, Expulsar",
+    "explicacaoTecnica": "O processo de remover dados ou entradas de um cache ou memória quando o espaço está cheio ou os dados estão obsoletos.",
+    "categoria": "Verbo",
+    "link": "https://redis.io/docs/manual/eviction/"
+  },
+  {
+    "termo": "Drain",
+    "traducaoLiteral": "Drenar, Esvaziar",
+    "explicacaoTecnica": "O processo de desativar um nó de servidor ou uma instância de aplicação para que ela pare de aceitar novas requisições, mas continue processando as requisições existentes até que termine.",
+    "categoria": "Verbo",
+    "link": "https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#drain"
+  },
+  {
+    "termo": "Lease",
+    "traducaoLiteral": "Aluguel, Arrendamento",
+    "explicacaoTecnica": "Um mecanismo que concede direitos exclusivos a um recurso por um tempo limitado, comum em sistemas distribuídos para coordenação e prevenção de conflitos.",
+    "categoria": "Substantivo",
+    "link": "https://raft.github.io/raft.pdf"
+  },
+  {
+    "termo": "Boundary",
+    "traducaoLiteral": "Limite, Fronteira",
+    "explicacaoTecnica": "Em arquitetura (como DDD ou Arquitetura Limpa), a linha divisória entre diferentes contextos de negócio ou camadas de aplicação.",
+    "categoria": "Conceito",
+    "link": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html"
+  },
+  {
+    "termo": "Monolith",
+    "traducaoLiteral": "Monólito",
+    "explicacaoTecnica": "Uma arquitetura onde todas as funcionalidades de uma aplicação (negócio, interface, dados) são construídas e implantadas como uma única unidade indivisível.",
+    "categoria": "Substantivo",
+    "link": "https://martinfowler.com/bliki/Monolith.html"
+  },
+  {
+    "termo": "Microservice",
+    "traducaoLiteral": "Microsserviço",
+    "explicacaoTecnica": "Um estilo de arquitetura onde uma aplicação é dividida em serviços pequenos, independentes, que rodam em seus próprios processos e se comunicam através de APIs leves.",
+    "categoria": "Substantivo",
+    "link": "https://martinfowler.com/articles/microservices.html"
+  },
+  {
+    "termo": "Saga",
+    "traducaoLiteral": "Saga, História longa",
+    "explicacaoTecnica": "Um padrão de arquitetura para gerenciar transações de negócios que abrangem múltiplos serviços, garantindo consistência através de compensação (compensating transactions) em caso de falha.",
+    "categoria": "Substantivo",
+    "link": "https://microservices.io/patterns/data/saga.html"
+  },
+  {
+    "termo": "Stale",
+    "traducaoLiteral": "Obsoleto, Velho, Estragado",
+    "explicacaoTecnica": "Um estado de dados ou recursos que não está mais atualizado ou sincronizado com a fonte original, tornando-se potencialmente incorreto.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/Stale"
+  },
+  {
+    "termo": "Garbage",
+    "traducaoLiteral": "Lixo",
+    "explicacaoTecnica": "Refere-se a objetos na memória que não estão mais sendo referenciados por nenhuma parte do programa e podem ser liberados para reutilização.",
+    "categoria": "Substantivo",
+    "link": "https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gc-ergonomics.html"
+  },
+  {
+    "termo": "Collector",
+    "traducaoLiteral": "Coletor",
+    "explicacaoTecnica": "Parte do ambiente de execução (runtime) responsável por identificar e desalocar a memória ocupada por objetos 'garbage' (Garbage Collector).",
+    "categoria": "Substantivo",
+    "link": "https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gc-ergonomics.html"
+  },
+  {
+    "termo": "Heap",
+    "traducaoLiteral": "Monte, Pilha (grande)",
+    "explicacaoTecnica": "Uma grande área de memória onde a alocação de objetos é dinâmica e gerenciada pelo sistema, geralmente usada para armazenamento de objetos de longa duração.",
+    "categoria": "Substantivo",
+    "link": "https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/"
+  },
+  {
+    "termo": "Stack",
+    "traducaoLiteral": "Pilha",
+    "explicacaoTecnica": "Uma área de memória usada para armazenar variáveis locais e informações de chamadas de função, operando com o princípio LIFO (Last-In, First-Out).",
+    "categoria": "Substantivo",
+    "link": "https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/"
+  },
+  {
+    "termo": "Pointer",
+    "traducaoLiteral": "Ponteiro",
+    "explicacaoTecnica": "Uma variável que armazena o endereço de memória de outra variável ou estrutura de dados, permitindo acesso direto à memória.",
+    "categoria": "Substantivo",
+    "link": "https://www.cprogramming.com/tutorial/c/lesson6.html"
+  },
+  {
+    "termo": "Dereference",
+    "traducaoLiteral": "Desreferenciar",
+    "explicacaoTecnica": "O ato de acessar o valor armazenado no endereço de memória apontado por um ponteiro.",
+    "categoria": "Verbo",
+    "link": "https://www.cprogramming.com/tutorial/c/lesson6.html"
+  },
+  {
+    "termo": "Coerce",
+    "traducaoLiteral": "Coagir, Forçar",
+    "explicacaoTecnica": "O processo de conversão automática (forçada) de um tipo de dado para outro em uma linguagem de programação, muitas vezes para compatibilidade em operações.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Type_coercion"
+  },
+  {
+    "termo": "Hoist",
+    "traducaoLiteral": "Içar, Levantar",
+    "explicacaoTecnica": "Um comportamento em JavaScript onde declarações de variáveis e funções são movidas conceitualmente para o topo de seu escopo antes da execução do código.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Hoisting"
+  },
+  {
+    "termo": "Literal",
+    "traducaoLiteral": "Literal",
+    "explicacaoTecnica": "Um valor fixo (dado) que é escrito diretamente no código-fonte, em oposição a um valor que é calculado ou carregado de uma variável.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/Literal"
+  },
+  {
+    "termo": "Mutate",
+    "traducaoLiteral": "Mutar, Mudar",
+    "explicacaoTecnica": "O ato de modificar o valor de uma variável ou objeto diretamente, em vez de criar uma nova cópia com o novo valor.",
+    "categoria": "Verbo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze"
+  },
+  {
+    "termo": "Immutable",
+    "traducaoLiteral": "Imutável",
+    "explicacaoTecnica": "Um objeto ou variável cujo estado não pode ser alterado após sua criação. Qualquer alteração resulta na criação de uma nova instância.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/en-US/docs/Glossary/Immutable"
+  },
+  {
+    "termo": "Boxing",
+    "traducaoLiteral": "Empacotamento",
+    "explicacaoTecnica": "Em linguagens como C# ou Java, o processo de converter um tipo de valor (value type, como int) para um tipo de referência (reference type, como Object).",
+    "categoria": "Conceito",
+    "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing"
+  },
+  {
+    "termo": "Unboxing",
+    "traducaoLiteral": "Desempacotamento",
+    "explicacaoTecnica": "O processo inverso do 'Boxing', onde um tipo de referência é convertido de volta para um tipo de valor explícito.",
+    "categoria": "Conceito",
+    "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/boxing-and-unboxing"
+  },
+  {
+    "termo": "Overload",
+    "traducaoLiteral": "Sobrecarga, Excesso de Carga",
+    "explicacaoTecnica": "A capacidade de criar múltiplas funções ou métodos com o mesmo nome, desde que tenham diferentes assinaturas (número ou tipo de argumentos).",
+    "categoria": "Verbo",
+    "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/methods/method-overloading"
+  },
+  {
+    "termo": "Override",
+    "traducaoLiteral": "Substituir, Anular",
+    "explicacaoTecnica": "Em POO, a capacidade de uma subclasse fornecer uma implementação específica para um método que já é definido em sua superclasse (herança).",
+    "categoria": "Verbo",
+    "link": "https://docs.oracle.com/javase/tutorial/java/IandI/override.html"
+  },
+  {
+    "termo": "Prototype",
+    "traducaoLiteral": "Protótipo",
+    "explicacaoTecnica": "Em JavaScript, o mecanismo pelo qual objetos herdam recursos de outros objetos. Em design, um modelo inicial da solução.",
+    "categoria": "Substantivo",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
+  },
+  {
+    "termo": "Syntactic",
+    "traducaoLiteral": "Sintático",
+    "explicacaoTecnica": "Relativo à sintaxe (gramática) de uma linguagem de programação. Como as palavras-chave, símbolos e operadores são combinados corretamente.",
+    "categoria": "Conceito",
+    "link": "https://www.techopedia.com/definition/8106/syntax-programming"
+  },
+  {
+    "termo": "Sugar",
+    "traducaoLiteral": "Açúcar",
+    "explicacaoTecnica": "Recursos de linguagem ('Syntactic Sugar') que tornam o código mais agradável de ler ou escrever, mas que, na prática, apenas se traduzem em construções de código mais verbosas e antigas.",
+    "categoria": "Substantivo",
+    "link": "https://www.freecodecamp.org/news/syntactic-sugar-in-programming/"
+  },
+  {
+    "termo": "Assertion",
+    "traducaoLiteral": "Afirmação",
+    "explicacaoTecnica": "Uma declaração em um programa que se espera ser verdadeira em um ponto específico. Se for falsa, indica um erro (comum em testes unitários).",
+    "categoria": "Substantivo",
+    "link": "https://docs.python.org/3/reference/simple_stmts.html#the-assert-statement"
+  },
+  {
+    "termo": "Fixture",
+    "traducaoLiteral": "Acessório, Aparelho",
+    "explicacaoTecnica": "Em testes de software, um conjunto de recursos e dados (como um usuário pré-criado ou um banco de dados temporário) necessário para executar um teste.",
+    "categoria": "Substantivo",
+    "link": "https://docs.pytest.org/en/latest/explanation/fixtures.html"
+  },
+  {
+    "termo": "Setup",
+    "traducaoLiteral": "Montagem, Configuração",
+    "explicacaoTecnica": "A etapa inicial em um processo de teste onde o ambiente e os pré-requisitos (fixtures) são configurados antes da execução dos testes propriamente ditos.",
+    "categoria": "Verbo",
+    "link": "https://docs.pytest.org/en/latest/explanation/fixtures.html#setup-and-teardown"
+  },
+  {
+    "termo": "Fuzzing",
+    "traducaoLiteral": "Borrar, Misturar (som)",
+    "explicacaoTecnica": "Uma técnica de teste de segurança que injeta dados semi-aleatórios e inválidos (fuzz) em um programa para tentar causar falhas, vazamentos de memória ou outros comportamentos inesperados.",
+    "categoria": "Conceito",
+    "link": "https://www.owasp.org/www-project-fuzzing"
+  },
+  {
+    "termo": "Benchmarking",
+    "traducaoLiteral": "Avaliação comparativa",
+    "explicacaoTecnica": "O processo de medir o desempenho de um componente de software sob cargas e condições específicas, comparando-o com padrões ou outras implementações.",
+    "categoria": "Conceito",
+    "link": "https://www.techopedia.com/definition/1785/benchmark-computing"
+  },
+  {
+    "termo": "Profiling",
+    "traducaoLiteral": "Criação de perfil",
+    "explicacaoTecnica": "Uma forma de análise dinâmica de programa que mede o uso de tempo e memória, ajudando a identificar gargalos e áreas que precisam de otimização de desempenho.",
+    "categoria": "Conceito",
+    "link": "https://www.ibm.com/topics/code-profiling"
+  },
+  {
+    "termo": "Instrumentation",
+    "traducaoLiteral": "Instrumentação",
+    "explicacaoTecnica": "O ato de adicionar código de registro (logging), métricas e rastreamento (tracing) a uma aplicação para torná-la observável em produção.",
+    "categoria": "Conceito",
+    "link": "https://opentelemetry.io/docs/concepts/instrumentation/"
+  },
+  {
+    "termo": "Telemetry",
+    "traducaoLiteral": "Telemetria (Medição à distância)",
+    "explicacaoTecnica": "A coleta e transmissão de dados de desempenho e uso de um sistema em operação para análise remota.",
+    "categoria": "Substantivo",
+    "link": "https://www.techtarget.com/searchnetworking/definition/telemetry"
+  },
+  {
+    "termo": "JIT",
+    "traducaoLiteral": "Justo a Tempo",
+    "explicacaoTecnica": "Abreviatura para Just-In-Time Compilation, uma técnica onde o código de bytecode é compilado para código de máquina nativo imediatamente antes de ser executado, combinando vantagens de interpretadores e compiladores.",
+    "categoria": "Conceito",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Glossary/JIT_compilation"
+  },
+  {
+    "termo": "Compile",
+    "traducaoLiteral": "Compilar",
+    "explicacaoTecnica": "O processo de traduzir o código-fonte escrito por humanos (alto nível) em um código de máquina (baixo nível) que o computador pode executar diretamente.",
+    "categoria": "Verbo",
+    "link": "https://www.techopedia.com/definition/27040/compilation"
+  },
+  {
+    "termo": "Interpret",
+    "traducaoLiteral": "Interpretar",
+    "explicacaoTecnica": "O processo de executar o código-fonte linha por linha, traduzindo e executando cada instrução sem a necessidade de uma etapa de compilação prévia.",
+    "categoria": "Verbo",
+    "link": "https://www.techopedia.com/definition/6250/interpreter"
+  },
+  {
+    "termo": "Agile",
+    "traducaoLiteral": "Ágil",
+    "explicacaoTecnica": "Uma metodologia de desenvolvimento de software baseada em entregas incrementais, colaboração e resposta rápida a mudanças, em vez de planejamento rígido.",
+    "categoria": "Metodologia",
+    "link": "https://agilemanifesto.org/iso/ptbr/manifesto.html"
+  },
+  {
+    "termo": "Kanban",
+    "traducaoLiteral": "Cartão visual (em japonês)",
+    "explicacaoTecnica": "Uma metodologia visual que foca em limitar o trabalho em andamento (WIP) e otimizar o fluxo, usando um quadro para representar os estágios do trabalho.",
+    "categoria": "Metodologia",
+    "link": "https://www.atlassian.com/agile/kanban"
+  },
+  {
+    "termo": "Sprint",
+    "traducaoLiteral": "Arrancada, Pique (corrida)",
+    "explicacaoTecnica": "Em Scrum, um período de tempo fixo e curto (geralmente duas semanas) durante o qual uma equipe trabalha para completar um conjunto definido de trabalho (Product Backlog).",
+    "categoria": "Substantivo",
+    "link": "https://www.scrum.org/resources/what-is-a-sprint-in-scrum"
+  },
+  {
+    "termo": "Retrospective",
+    "traducaoLiteral": "Retrospectiva",
+    "explicacaoTecnica": "Uma reunião realizada no final de um Sprint onde a equipe inspeciona seu processo e planeja melhorias para o próximo ciclo, focando em 'o que fizemos bem' e 'o que podemos melhorar'.",
+    "categoria": "Metodologia",
+    "link": "https://www.atlassian.com/agile/scrum/retrospectives"
+  },
+  {
+    "termo": "Standup",
+    "traducaoLiteral": "De pé",
+    "explicacaoTecnica": "Uma breve reunião diária (Daily Scrum) onde os membros da equipe se reúnem (geralmente de pé para mantê-la curta) para sincronizar atividades e identificar impedimentos.",
+    "categoria": "Substantivo",
+    "link": "https://www.atlassian.com/agile/scrum/standups"
+  },
+  {
+    "termo": "Cadence",
+    "traducaoLiteral": "Cadência, Ritmo",
+    "explicacaoTecnica": "A frequência ou ritmo regular com que as cerimônias Ágeis (como Sprints ou reuniões) são realizadas, mantendo a previsibilidade e o fluxo de trabalho.",
+    "categoria": "Substantivo",
+    "link": "https://www.scaledagileframework.com/cadence/"
+  },
+  {
+    "termo": "Triage",
+    "traducaoLiteral": "Triagem",
+    "explicacaoTecnica": "O processo de classificar e priorizar defeitos (bugs) ou novas funcionalidades com base na severidade, urgência e impacto.",
+    "categoria": "Verbo",
+    "link": "https://www.atlassian.com/agile/project-management/issue-triage"
+  },
+  {
+    "termo": "Resilience",
+    "traducaoLiteral": "Resiliência",
+    "explicacaoTecnica": "A capacidade de um sistema de se recuperar de falhas, manter a funcionalidade e retornar ao estado operacional após interrupções.",
+    "categoria": "Conceito",
+    "link": "https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/resiliency"
+  },
+  {
+    "termo": "Backlog",
+    "traducaoLiteral": "Acúmulo, Atraso (literalmente 'atrás da tora')",
+    "explicacaoTecnica": "Uma lista ordenada de tudo o que é conhecido como necessário no produto, servindo como a única fonte de trabalho para a Equipe Scrum.",
+    "categoria": "Substantivo",
+    "link": "https://www.scrum.org/resources/what-is-a-product-backlog"
+  },
+  {
+    "termo": "Acceptance",
+    "traducaoLiteral": "Aceitação",
+    "explicacaoTecnica": "Relacionado aos 'Acceptance Criteria', são as condições que um produto ou funcionalidade deve satisfazer para ser aceito pelo cliente ou Product Owner (Dono do Produto).",
+    "categoria": "Substantivo",
+    "link": "https://www.atlassian.com/agile/scrum/acceptance-criteria"
+  },
+  {
+    "termo": "Metrics",
+    "traducaoLiteral": "Métricas",
+    "explicacaoTecnica": "Dados quantificáveis usados para monitorar e avaliar o desempenho, saúde ou eficácia de um sistema ou processo (ex: tempo de resposta, taxa de erros).",
+    "categoria": "Substantivo",
+    "link": "https://sre.google/sre-book/monitoring-distributed-systems/#the-four-golden-signals"
+  },
+  {
+    "termo": "Burn Down",
+    "traducaoLiteral": "Queimar para baixo",
+    "explicacaoTecnica": "Um gráfico visual (Burn Down Chart) que mostra o trabalho restante (em horas ou pontos) ao longo do tempo em um Sprint, indicando se a equipe está no caminho certo para concluir o trabalho.",
+    "categoria": "Conceito",
+    "link": "https://www.atlassian.com/agile/scrum/burndown-chart"
+  },
+  {
+    "termo": "Velocity",
+    "traducaoLiteral": "Velocidade",
+    "explicacaoTecnica": "Uma métrica em Scrum que mede a quantidade média de trabalho (em Story Points) que uma equipe pode concluir em um único Sprint, usada para planejamento futuro.",
+    "categoria": "Substantivo",
+    "link": "https://www.atlassian.com/agile/scrum/velocity"
+  },
+  {
+    "termo": "User Story",
+    "traducaoLiteral": "História de Usuário",
+    "explicacaoTecnica": "Uma descrição curta e simples de uma funcionalidade, escrita da perspectiva do usuário final, focada no valor que será entregue (Formato: 'Como um [usuário], eu quero [funcionalidade], para que eu possa [valor]').",
+    "categoria": "Substantivo",
+    "link": "https://www.atlassian.com/agile/project-management/user-stories"
+  },
+  {
+    "termo": "Stakeholder",
+    "traducaoLiteral": "Detentor de participação/interesse",
+    "explicacaoTecnica": "Qualquer indivíduo ou grupo que tenha um interesse legítimo ou possa ser afetado pelas decisões ou resultados do projeto (clientes, gerentes, usuários).",
+    "categoria": "Substantivo",
+    "link": "https://www.pmi.org/learning/library/stakeholder-management-project-success-1249"
+  }
+]

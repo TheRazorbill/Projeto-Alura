@@ -1,0 +1,7 @@
+/* --- Main Stylesheet --- */
+@import 'variables.css';
+@import 'reset.css';
+@import 'animations.css';
+@import 'layout.css';
+@import 'components.css';
+@import 'flashcards.css';
